@@ -7,6 +7,7 @@ TagManager:
   - Paddle
   - Wall
   - Wall_over
+  - Border
   layers:
   - Default
   - TransparentFX
@@ -15,7 +16,7 @@ TagManager:
   - Water
   - UI
   - damage
-  - 
+  - player
   - 
   - 
   - 
