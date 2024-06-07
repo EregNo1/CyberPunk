@@ -3,15 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Paddle
+  - Wall
+  - Wall_over
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - object
   - Water
   - UI
-  - 
+  - damage
   - 
   - 
   - 

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dialogs>
+	<dialog id="1">
+		<imgcode>image1</imgcode>
+		<name>John</name>
+		<log>Hello there!</log>
+	</dialog>
+	<dialog id="2">
+		<imgcode>image2</imgcode>
+		<name>Jane</name>
+		<log>How are you?</log>
+	</dialog>
+	
+</dialogs>

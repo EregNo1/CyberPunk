@@ -5,7 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: b1e5ef20f01946f4cbf549c15f1d0151
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: 9131fc8585f129b4cb44e2c376acb5c7
+  - enabled: 1
+    path: Assets/Scenes/Typing.unity
+    guid: bd57ee03cea57484cb078cbf1838f407
+  - enabled: 1
+    path: Assets/Scenes/PingPong.unity
+    guid: 09cca030e7142e8428f4bcab60666dc6
   m_configObjects: {}

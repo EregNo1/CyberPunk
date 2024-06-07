@@ -1,0 +1,452 @@
+fileFormatVersion: 2
+guid: c3e7a01a1a7329d4cb6501647e356ed9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Settingbtn_0
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 731
+        width: 393
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752874ccb2befb143835843f662a05ef
+      internalID: 1763325057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Settingbtn_1
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 739
+        width: 384
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4dd81a8d4836e479d105e98bd8f4e4
+      internalID: -583960110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Settingbtn_12
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 515
+        width: 228
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2417d6844854b4292ed77c0c3caeda
+      internalID: -1768318967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Settingbtn_13
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 514
+        width: 228
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfc014e0600cf645b9ae3c63a48f488
+      internalID: -979533478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Settingbtn_29
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 325
+        width: 228
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cac1cafa1a9d664fb346bceed3b2fd0
+      internalID: -1762960489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Settingbtn_30
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 324
+        width: 228
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1179f930c9cd21447b7f9dfab7328378
+      internalID: -2117927479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Settingbtn_2
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 326
+        width: 228
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c16545e21a9374abc6a75038fd6f95
+      internalID: -847953621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Settingbtn_3
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 515
+        width: 228
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a40fb23e3ced647ba0341030bc4857
+      internalID: 1944021802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Settingbtn_4
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 515
+        width: 228
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c9ffad3baaf2f43862491f2283b1d6
+      internalID: -1195563887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Settingbtn_5
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 326
+        width: 228
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b546cc0c1b7924ea357b45633231d5
+      internalID: -516008262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Settingbtn_6
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 169
+        width: 228
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f9f43e223ca574980de5b8053cf584
+      internalID: -332767793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Settingbtn_7
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 340
+        width: 228
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47eb70f18fc2954a935b8390dbfb10e
+      internalID: 727584592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Settingbtn_8
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 514
+        width: 228
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162c8a993fbe8cc498d7eedea2d6ef93
+      internalID: -1461051415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Settingbtn_0: 1763325057
+      Settingbtn_1: -583960110
+      Settingbtn_10: 869803595
+      Settingbtn_11: -851652478
+      Settingbtn_12: -1768318967
+      Settingbtn_13: -979533478
+      Settingbtn_14: -922030936
+      Settingbtn_15: -272900209
+      Settingbtn_16: -619211052
+      Settingbtn_17: 372849484
+      Settingbtn_18: -2084116669
+      Settingbtn_19: 17578721
+      Settingbtn_2: -847953621
+      Settingbtn_20: 1323756467
+      Settingbtn_21: 1077559093
+      Settingbtn_22: -1524195507
+      Settingbtn_23: 2141049848
+      Settingbtn_24: 2100260675
+      Settingbtn_25: 38957726
+      Settingbtn_26: 1688399853
+      Settingbtn_27: 2136018235
+      Settingbtn_28: -793938374
+      Settingbtn_29: -1762960489
+      Settingbtn_3: 1944021802
+      Settingbtn_30: -2117927479
+      Settingbtn_31: 1231012187
+      Settingbtn_32: 987843529
+      Settingbtn_33: 478862016
+      Settingbtn_34: 1091495587
+      Settingbtn_35: 1036678072
+      Settingbtn_36: -1378287785
+      Settingbtn_37: 751559613
+      Settingbtn_38: 1887182966
+      Settingbtn_39: -2129745866
+      Settingbtn_4: -1195563887
+      Settingbtn_40: 1792575670
+      Settingbtn_41: -1203752014
+      Settingbtn_42: -2032994331
+      Settingbtn_43: 85933315
+      Settingbtn_44: 1828950811
+      Settingbtn_45: 1195075951
+      Settingbtn_46: -1833713695
+      Settingbtn_47: -373047456
+      Settingbtn_48: -1177198683
+      Settingbtn_49: 423147043
+      Settingbtn_5: -516008262
+      Settingbtn_50: 1301977374
+      Settingbtn_51: -2102084739
+      Settingbtn_6: -332767793
+      Settingbtn_7: 727584592
+      Settingbtn_8: -1461051415
+      Settingbtn_9: -1457483394
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
