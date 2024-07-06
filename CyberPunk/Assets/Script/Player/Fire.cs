@@ -10,28 +10,41 @@ public class Fire : MonoBehaviour
     [SerializeField] private float fireDelay = 0.1f; // 발사 딜레이
     private float lastFireTime = 0; // 마지막 발사 시간
 
+
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.W))
         {
+            //Bullet.rotate.rotation = Quaternion.Euler(0, 0, 270);
+            Bullet.rotation = 90f;
             Bullet.direction = Vector2.up;
             fireBullet();
+            
         }
 
         if (Input.GetKeyDown(KeyCode.A))
         {
+            //Bullet.rotate.rotation = Quaternion.Euler(0, 0, 180);
+            Bullet.rotation = 180f;
             Bullet.direction = Vector2.left;
             fireBullet();
+
         }
 
         if (Input.GetKeyDown(KeyCode.S))
         {
+            //Bullet.rotate.rotation = Quaternion.Euler(0, 0, 90);
+            Bullet.rotation = 270f;
             Bullet.direction = Vector2.down;
             fireBullet();
+
         }
 
         if (Input.GetKeyDown(KeyCode.D))
         {
+            //Bullet.rotate.rotation = Quaternion.Euler(0, 0, 0);
+            Bullet.rotation = 0f;
             Bullet.direction = Vector2.right;
             fireBullet();
         }
@@ -39,10 +52,11 @@ public class Fire : MonoBehaviour
 
     public void fireBullet()
     {
+
+
         if (Time.time - lastFireTime >= fireDelay)
         {
-            Instantiate(bulletPref, transform.position, transform.rotation);
-
+            Instantiate(bulletPref, transform.position, Quaternion.identity);
             lastFireTime = Time.time;
         }
 

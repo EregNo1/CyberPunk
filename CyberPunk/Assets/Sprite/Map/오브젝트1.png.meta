@@ -218,10 +218,10 @@ TextureImporter:
       name: "\uC624\uBE0C\uC81D\uD2B81_5"
       rect:
         serializedVersion: 2
-        x: 10
-        y: 1540
-        width: 455
-        height: 175
+        x: 1725
+        y: 1530
+        width: 145
+        height: 330
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,9 +239,9 @@ TextureImporter:
       name: "\uC624\uBE0C\uC81D\uD2B81_6"
       rect:
         serializedVersion: 2
-        x: 535
+        x: 10
         y: 1540
-        width: 130
+        width: 455
         height: 175
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -260,6 +260,27 @@ TextureImporter:
       name: "\uC624\uBE0C\uC81D\uD2B81_7"
       rect:
         serializedVersion: 2
+        x: 535
+        y: 1540
+        width: 130
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402625f28e57bdb469e987cfbb6785ec
+      internalID: -1956057399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uC624\uBE0C\uC81D\uD2B81_8"
+      rect:
+        serializedVersion: 2
         x: 0
         y: 1050
         width: 895
@@ -271,8 +292,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 402625f28e57bdb469e987cfbb6785ec
-      internalID: -1956057399
+      spriteID: f32776711e6c2c54eb2d32aa463a178e
+      internalID: 679630048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uC624\uBE0C\uC81D\uD2B81_9"
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1050
+        width: 240
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1148ae9bd4f578440a2d57f3a22b7753
+      internalID: -1974822246
       vertices: []
       indices: 
       edges: []
@@ -296,6 +338,8 @@ TextureImporter:
       "\uC624\uBE0C\uC81D\uD2B81_5": 1207809067
       "\uC624\uBE0C\uC81D\uD2B81_6": -507871725
       "\uC624\uBE0C\uC81D\uD2B81_7": -1956057399
+      "\uC624\uBE0C\uC81D\uD2B81_8": 679630048
+      "\uC624\uBE0C\uC81D\uD2B81_9": -1974822246
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

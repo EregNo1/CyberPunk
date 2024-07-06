@@ -24,14 +24,20 @@ public class MainControl : MonoBehaviour
 
 
     public GameObject window_Config;
+    public Animator titleMenu;
 
     int menucode = 0;
     public static bool isConfigOpen = false;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-        
+        Screen.SetResolution(1920, 1080, true);
+    }
+
+
+    private void Start()
+    {
+        StartCoroutine(titleMenuOn());
     }
 
     // Update is called once per frame
@@ -149,5 +155,11 @@ public class MainControl : MonoBehaviour
     }
 
 
+    IEnumerator titleMenuOn()
+    {
+        yield return new WaitForSeconds(15f);
+        titleMenu.Play("titleMenu_On");
+        
+    }
 
 }

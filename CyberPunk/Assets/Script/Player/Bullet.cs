@@ -10,20 +10,24 @@ public class Bullet : MonoBehaviour
 
     [SerializeField] private float firePower = 15f; // 발사 힘
     public static Vector2 direction;
-
+    public static float rotation;
+    Animator animator;
+    Rigidbody2D bulletrb;
 
     void Start()
     {
         Invoke("DestroyTime", 2.0f);
 
-        GetComponent<Rigidbody2D>().AddForce(direction * firePower, ForceMode2D.Impulse);
+        bulletrb = GetComponent<Rigidbody2D>();
+        transform.rotation = Quaternion.Euler(0, 0, rotation);
+        bulletrb.velocity = direction * firePower;
+
+        animator = GetComponent<Animator>();
+
+
 
     }
 
-    void DestroyTime()
-    {
-        Destroy(gameObject);
-    }
 
 
 
@@ -32,16 +36,29 @@ public class Bullet : MonoBehaviour
         if (collision.gameObject.CompareTag("Border"))
         {
             Debug.Log("벽에 충돌!");
-            //Instantiate(RangeHitEffect, transform.position, Quaternion.identity); // 히트 효과 생성
-            Destroy(gameObject);
+            bulletrb.velocity = Vector2.zero;
+            animator.Play("bujeok_hit");
+            StartCoroutine(DestroyBujeok());
+
         }
-        /*else if (collision.gameObject.CompareTag("Monster"))
+        else if (collision.gameObject.CompareTag("Mob"))
         {
             Debug.Log("몬스터에게 충돌!");
             //Instantiate(RangeHitEffect, transform.position, Quaternion.identity); // 히트 효과 생성
             // collision.SendMessage("Demaged", 10); // Demaged 함수 호출, 원거리 공격력(10, 임시)만큼 피해  TODO
-            Destroy(gameObject);
-        }*/
+            StartCoroutine(DestroyBujeok());
+        }
     }
+
+
+    IEnumerator DestroyBujeok()
+    {
+        //animator.SetTrigger("isHit");
+
+        yield return new WaitForSeconds(0.5f);
+
+        Destroy(gameObject);
+    }
+
 }
 

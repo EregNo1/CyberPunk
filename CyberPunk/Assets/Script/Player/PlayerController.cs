@@ -11,8 +11,11 @@ public class PlayerController : MonoBehaviour
     float h;
     float v;
     bool isHorizonMove;
+    bool ishit;
 
     public float speed;
+    public float knockbackForce;
+    public float knockbackDuration;
 
     Rigidbody2D rigid;
 
@@ -49,6 +52,7 @@ public class PlayerController : MonoBehaviour
         v = Input.GetAxisRaw("Vertical");
 
 
+        //Space를 누르면 충돌한 오브젝트 이름을 스캔해 알맞은 다이얼로그 출력
         if (DialogueManager.Instance.istalk == false)
         {
             if (Input.GetKeyDown(KeyCode.Space) && scanObject != null)
@@ -61,62 +65,59 @@ public class PlayerController : MonoBehaviour
 
         }
 
-
-
+        //HP가 0이 되면 사망 애니메이션 재생 (추후 수정)
+        if(HP.hpNum == 0)
+        {
+            PlayerDead();
+        }
 
 
 
 
 
     }
-    /*private void OnTriggerEnter2D(Collider2D collision)
+
+
+    ///OnTriggerStay2D 충돌하고 있는 동안 실행
+    /*private void OnTriggerStay2D(Collider2D collision)
     {
-        collision.name = scanObject.name;
+        collision.name = scanObject.name; //충돌한 콜라이더 이름을 scanObject 이름에 대입
     }*/
-
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        collision.name = scanObject.name;
-    }
 
     private void FixedUpdate()
     {
-        PlayerControll();
+        if(!ishit) PlayerControll();//피격 애니메이션이 재생중인 동안은 이동 불가
 
-        Collider2D check = Physics2D.OverlapCircle(rigid.position, 1, LayerMask.GetMask("object"));
-        //Collider2D hit = Physics2D.OverlapCircle(rigid.position, 0.4f, LayerMask.GetMask("damage"));
+        Collider2D check = Physics2D.OverlapCircle(rigid.position, 1, LayerMask.GetMask("object")); //오브젝트 체크 (다이얼로그 출력용)
+        Collider2D hit = Physics2D.OverlapCircle(rigid.position, 0.5f, LayerMask.GetMask("damage")); //히트 체크 (전투 전용)
 
 
-        if (check != null)
+        if (check != null) //충돌한 오브젝트가 check일 경우 
         {
-            scanObject = check.gameObject;
-            Debug.Log(scanObject.name);
+            scanObject = check.gameObject; //scanObject에 충돌한 오브젝트 대입
+            //Debug.Log(scanObject.name);
+        }
+        else if (hit != null) //충돌한 오브젝트가 hit일 경우
+        {
+            scanObject = hit.gameObject;//scanObject에 충돌한 오브젝트 대입
+            //Debug.Log(scanObject.name);
+
+            Vector2 bulletDirection = Mob1Bullet.GetBulletDirection();
+            StartCoroutine(hit_Delay()); //히트 딜레이 코루틴(히트 함수 포함)
+            StartCoroutine(PlayerHit(bulletDirection, knockbackForce, knockbackDuration)); //히트 딜레이 코루틴(히트 함수 포함)
+        }
+        else //충돌한 것이 없으면 null 처리
+        {
+            scanObject = null;
         }
 
-        /*if (hit != null)
-        {
-            scanObject = hit.gameObject;
-            //hit_Delay();
-
-            Debug.Log("HitDAmage");
-        }*/
-
-        /*Debug.DrawRay(rigid.position, dirVec, new Color(0, 1, 0));
-        RaycastHit2D rayHit = Physics2D.Raycast(rigid.position, dirVec, 1f, LayerMask.GetMask("object"));
-
-        if(rayHit.collider != null)
-        {
-            scanObject = rayHit.collider.gameObject;
-        }*/
 
     }
 
-    /*private void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(rigid.position, 1);
-    }*/
 
+
+    //충돌 중인 오브젝트 이름에 따라 출력할 다이얼로그 결정
+    //수정 필요...
     public void DialogueAction()
     {
         if (scanObject.name == "NPC_1") list_Dialogue.npc1_minigame();
@@ -125,6 +126,7 @@ public class PlayerController : MonoBehaviour
     }
 
 
+    //플레이어 이동 함수
     void PlayerControll()
     {
         Vector2 moveVec = new Vector2(h, v);
@@ -158,20 +160,41 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void PlayerHit()
+
+    void PlayerDead()
     {
-        anim.SetBool("isDamaged", true);
+        rigid.velocity = Vector2.zero;
+        anim.Play("Hero_DeadL");
     }
 
 
+    //히트 함수
 
+
+    IEnumerator PlayerHit(Vector2 direction, float force, float duration)
+    {
+        rigid.velocity = direction * force;
+        yield return new WaitForSeconds(duration);
+        rigid.velocity = Vector2.zero; //움직임 멈춤
+    }
+
+    //피격 후 딜레이 코루틴. 
     IEnumerator hit_Delay()
     {
-        PlayerHit();
+        ishit = true; //이동 조작 막기
 
-        
-        yield return new WaitForSeconds(0.55f);
-        anim.SetBool("isDamaged", false);
+
+        if (Mob1Bullet.mob1_direction.x >= 0)
+        {
+            anim.Play("Hero_HitL"); //피격 애니메이션 재생
+        }
+        else anim.Play("Hero_HitR"); //피격 애니메이션 재생
+
+
+        yield return new WaitForSeconds(0.7f); //애니메이션 재생시간 동안 딜레이 (이동 조작 막기)
+        anim.SetTrigger("hitEnd"); //피격 애니메이션 종료 -> idle 애니메이션 재생
+
+        ishit = false; //이동 조작 해제
     }
 
 }

@@ -22,10 +22,7 @@ public class ConfigManager : MonoBehaviour
     public int[] targetHeight;
     int array = 0;
 
-    private void Awake()
-    {
-        Screen.SetResolution(1920, 1080, true);
-    }
+
 
     void Start()
     {
