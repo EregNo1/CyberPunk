@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2e3146dfffff6234a8b5cd75c4d44fae
+guid: 6693f48858352be40b580a45aa6bc653
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hero_RunL_0
+      name: Hero_RunL 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1334f917e69758d42b0e0e3a354241d9
-      internalID: -1009700526
+      spriteID: 2933e38fed9156c4bac25e6ff5c3d33b
+      internalID: -746602340
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hero_RunL_1
+      name: Hero_RunL 1_1
       rect:
         serializedVersion: 2
         x: 240
@@ -145,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0652d642f6e241849b0076c5947be2c5
-      internalID: -432226693
+      spriteID: 1929d8e46a2a1664a90fb9fbdb6762e4
+      internalID: 926892508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hero_RunL_2
+      name: Hero_RunL 1_2
       rect:
         serializedVersion: 2
         x: 480
@@ -166,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 537907ee25be83e45b98f4b8aa82fd6c
-      internalID: -545400032
+      spriteID: ec75f75123c8ad942a61f100c6a78fe0
+      internalID: 844227250
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hero_RunL_3
+      name: Hero_RunL 1_3
       rect:
         serializedVersion: 2
         x: 720
@@ -187,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12931becef728f4419f23b52f8946fd7
-      internalID: -1113089055
+      spriteID: fcbb92c46478061478f4be68fd74eb43
+      internalID: 1111376657
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hero_RunL_4
+      name: Hero_RunL 1_4
       rect:
         serializedVersion: 2
         x: 960
@@ -208,14 +208,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab9807605f5ce5443931821fc931f8dd
-      internalID: 1409323956
+      spriteID: 25e47f399f054c5428613fe1a33dfd63
+      internalID: -549229173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hero_RunL_5
+      name: Hero_RunL 1_5
       rect:
         serializedVersion: 2
         x: 1200
@@ -229,14 +229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7396ef084ad6654aaaba902b346e9d5
-      internalID: -488979907
+      spriteID: 8c8ab42aa099b7a499b5774286af3e91
+      internalID: -2128519121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hero_RunL_6
+      name: Hero_RunL 1_6
       rect:
         serializedVersion: 2
         x: 1440
@@ -250,14 +250,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8151cae9d6a280145a7be96d48b763dd
-      internalID: 1919012960
+      spriteID: c27d50bd5b2e73947b47b8dfd5c00cbf
+      internalID: 638610823
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hero_RunL_7
+      name: Hero_RunL 1_7
       rect:
         serializedVersion: 2
         x: 1680
@@ -271,14 +271,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6fecf1ed007b79b469f0e8aedca6c00d
-      internalID: -253483267
+      spriteID: 2d0ff04e5b74dbd4c827cd562a8942f0
+      internalID: -1715108303
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hero_RunL_8
+      name: Hero_RunL 1_8
       rect:
         serializedVersion: 2
         x: 1920
@@ -292,14 +292,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b21197c7f0855954c809aacfed0e7c23
-      internalID: 1519997282
+      spriteID: ffcc79fb043032449ad8bad5a79aa4ec
+      internalID: 1925191132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hero_RunL_9
+      name: Hero_RunL 1_9
       rect:
         serializedVersion: 2
         x: 2160
@@ -313,14 +313,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46db82454f35d774fac0eebf4083cbb2
-      internalID: -611767545
+      spriteID: 5be1297dd44817f49b38292753a679fe
+      internalID: -1635533244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hero_RunL_10
+      name: Hero_RunL 1_10
       rect:
         serializedVersion: 2
         x: 2400
@@ -334,14 +334,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d422ffe59729cb8459dec4b2765c6aee
-      internalID: 42938470
+      spriteID: d0614fc764b028248b6ea5dc779cde02
+      internalID: -116968920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hero_RunL_11
+      name: Hero_RunL 1_11
       rect:
         serializedVersion: 2
         x: 2640
@@ -355,8 +355,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e6626b891775144080c7b119bcd3ece
-      internalID: 638614232
+      spriteID: 6db6002ed5564b5468564a8cd73a9ea0
+      internalID: -540337200
       vertices: []
       indices: 
       edges: []
@@ -372,18 +372,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Hero_RunL_0: -1009700526
-      Hero_RunL_1: -432226693
-      Hero_RunL_10: 42938470
-      Hero_RunL_11: 638614232
-      Hero_RunL_2: -545400032
-      Hero_RunL_3: -1113089055
-      Hero_RunL_4: 1409323956
-      Hero_RunL_5: -488979907
-      Hero_RunL_6: 1919012960
-      Hero_RunL_7: -253483267
-      Hero_RunL_8: 1519997282
-      Hero_RunL_9: -611767545
+      Hero_RunL 1_0: -746602340
+      Hero_RunL 1_1: 926892508
+      Hero_RunL 1_10: -116968920
+      Hero_RunL 1_11: -540337200
+      Hero_RunL 1_2: 844227250
+      Hero_RunL 1_3: 1111376657
+      Hero_RunL 1_4: -549229173
+      Hero_RunL 1_5: -2128519121
+      Hero_RunL 1_6: 638610823
+      Hero_RunL 1_7: -1715108303
+      Hero_RunL 1_8: 1925191132
+      Hero_RunL 1_9: -1635533244
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

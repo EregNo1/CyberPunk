@@ -1,0 +1,623 @@
+fileFormatVersion: 2
+guid: 2bfddb03da72c134e804c66e82e337f6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Space2~3_interaction_light
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1991
+        width: 69
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d4b73c0cf518a4c9decfaddab1b5c7
+      internalID: -1919632615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_interaction_door
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1487
+        width: 347
+        height: 632
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db76bd91864a5ef44a14956997700faf
+      internalID: -586555332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_rightwall_curtain
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 1074
+        width: 153
+        height: 1079
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721ebe0614f4c424796036c5b8af2b5a
+      internalID: -2062331094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_interaction_drinkStorage
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 1499
+        width: 345
+        height: 592
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b9720cf1812e249a193197bfe7162c
+      internalID: 2097895610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_interaction_huntingTrophy
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 1770
+        width: 286
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1522c2beb5fd34c8c286729975fdba
+      internalID: -1613227144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_interaction_wood
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 1830
+        width: 213
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513c67cba753e8247937627cc6560d48
+      internalID: -821156620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_interaction_mirror
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1487
+        width: 126
+        height: 313
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a011294f93669a4c99c0bf0b6a003f4
+      internalID: 614169414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_interaction_gun
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 1590
+        width: 384
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a78be0082762164a837ba479211fa99
+      internalID: 31151399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_interaction_fireplace
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 500
+        width: 1673
+        height: 881
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0aa7be75af251544a917524ebe6302e
+      internalID: 2099910253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_interaction_rock1
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 333
+        width: 119
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d689fdd07219af498312be35ae7ebe5
+      internalID: -684618808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_interaction_book1
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 344
+        width: 139
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06faf9739b777841854f435873fcbe0
+      internalID: -1632444379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_interaction_rock2
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 344
+        width: 119
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4420479cb704042ba4fc94ec772d75
+      internalID: 1388253318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_interaction_16
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 408
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a1a89ca79a1cd4d8bf3dddde404c40
+      internalID: 942114648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_interaction_bottle
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 285
+        width: 97
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5342f734b513d5478f52f0e9cca122e
+      internalID: -2053163711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_interaction_pot
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 299
+        width: 120
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fabaf53d7e0ab4b4a963d80ebe93ce81
+      internalID: -980688195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_interaction_plate2
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 328
+        width: 89
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37e878ced1f1f446a8227ac88da3598
+      internalID: 928283226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_interaction_plate1
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 201
+        width: 146
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26d13b652dbcdb40bc745efae4978da
+      internalID: -1883303727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_interaction_book2
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 206
+        width: 210
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97918c33015387498be255dd72aabe6
+      internalID: 1297159007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_interaction_box
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 154
+        width: 128
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158ca8b11ffc1e742abf53425f6116ab
+      internalID: -370494285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_interaction_photo
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 161
+        width: 90
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3dd3125a2c321469883c1b142053a8
+      internalID: 726681690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_interaction_vesssel
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 169
+        width: 156
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afaaeadb08b71364ba9dfa9ede94344c
+      internalID: -1822999360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_interaction_rock3
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 82
+        width: 409
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409ec06948771e94985d71674ef5779d
+      internalID: -955031743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Space2~3_interaction_0: -358327476
+      Space2~3_interaction_11: 1178196127
+      Space2~3_interaction_16: 942114648
+      Space2~3_interaction_18: 904566368
+      Space2~3_interaction_2: -99778861
+      Space2~3_interaction_22: -2070324684
+      Space2~3_interaction_27: 51707998
+      Space2~3_interaction_28: 109642806
+      Space2~3_interaction_29: 735118339
+      Space2~3_interaction_30: -1816065700
+      Space2~3_interaction_31: -434322939
+      Space2~3_interaction_4: -1208881487
+      Space2~3_interaction_7: 116534824
+      Space2~3_interaction_book1: -1632444379
+      Space2~3_interaction_book2: 1297159007
+      Space2~3_interaction_bottle: -2053163711
+      Space2~3_interaction_box: -370494285
+      Space2~3_interaction_door: -586555332
+      Space2~3_interaction_drinkStorage: 2097895610
+      Space2~3_interaction_fireplace: 2099910253
+      Space2~3_interaction_gun: 31151399
+      Space2~3_interaction_huntingTrophy: -1613227144
+      Space2~3_interaction_light: -1919632615
+      Space2~3_interaction_mirror: 614169414
+      Space2~3_interaction_photo: 726681690
+      Space2~3_interaction_plate1: -1883303727
+      Space2~3_interaction_plate2: 928283226
+      Space2~3_interaction_pot: -980688195
+      Space2~3_interaction_rock1: -684618808
+      Space2~3_interaction_rock2: 1388253318
+      Space2~3_interaction_rock3: -955031743
+      Space2~3_interaction_vesssel: -1822999360
+      Space2~3_interaction_wood: -821156620
+      Space2~3_rightwall_curtain: -2062331094
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

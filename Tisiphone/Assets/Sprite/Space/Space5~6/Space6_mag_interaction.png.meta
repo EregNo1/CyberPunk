@@ -1,0 +1,534 @@
+fileFormatVersion: 2
+guid: 5e2ec1634bdfc9a4aae970e8e033801c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Space6_mag_interaction_0
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 2441
+        width: 1182
+        height: 758
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be39287da40986a40900c6d68cca4bda
+      internalID: 1299638645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space6_mag_interaction_1
+      rect:
+        serializedVersion: 2
+        x: 2325
+        y: 2885
+        width: 613
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49bade16d8f7a3469f5c0b3fe5db0e1
+      internalID: -1837674764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space6_mag_interaction_3
+      rect:
+        serializedVersion: 2
+        x: 3100
+        y: 2895
+        width: 364
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a774d390de6e648b298b08400dfd71
+      internalID: -542060234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space6_mag_interaction_4
+      rect:
+        serializedVersion: 2
+        x: 4227
+        y: 2014
+        width: 673
+        height: 1079
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774aa7f1d8963444ab8f1f1c8a63adda
+      internalID: 1014076108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space6_mag_interaction_6
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 2760
+        width: 467
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c6f1680c941b54aa459b1be6dd1bd0
+      internalID: -1807995154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space6_mag_interaction_9
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 1968
+        width: 1801
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ac9b8dba339b342a590a0d9b235153
+      internalID: 1096446381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space6_mag_interaction_10
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1338
+        width: 313
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e399c3082b057854a83769a6190b5fef
+      internalID: 739657255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space6_mag_interaction_11
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1884
+        width: 921
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70a914facb04684cb480fd96d8e69b2
+      internalID: 1194830675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space6_mag_interaction_18
+      rect:
+        serializedVersion: 2
+        x: 2226
+        y: 1368
+        width: 274
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfb624d49333fc479d64f8992d22549
+      internalID: 1198475682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space6_mag_interaction_20
+      rect:
+        serializedVersion: 2
+        x: 3595
+        y: 1395
+        width: 721
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce976c6bd49dd8f4a9710ad704c442f5
+      internalID: -445142917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space6_mag_interaction_21
+      rect:
+        serializedVersion: 2
+        x: 4474
+        y: 1375
+        width: 276
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d122bca035f10354fbb83fd5e0105391
+      internalID: 1307387639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space6_mag_interaction_22
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 1543
+        width: 71
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36aea6477f54b7c41ac4c71e26aefbbd
+      internalID: 1255098175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space6_mag_interaction_23
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 1190
+        width: 251
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c3bf8d0f1515247ab56cc60a87239f
+      internalID: 895991407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space6_mag_interaction_7
+      rect:
+        serializedVersion: 2
+        x: 3748
+        y: 2905
+        width: 264
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9e88685476dbe48855584305d03bbc
+      internalID: -1083459242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space6_mag_interaction_8
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 2441
+        width: 467
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19aa6a37c84ead408e7c57204b5bb2a
+      internalID: -1991582999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space6_mag_interaction_15
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1694
+        width: 377
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec9329230a2f2a4bb1ae45d0d3d93c7
+      internalID: -1078124025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space6_mag_interaction_17
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 1107
+        width: 475
+        height: 695
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6b9daf782876647a2df40fcb27800d
+      internalID: -2123366411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space6_mag_interaction_19
+      rect:
+        serializedVersion: 2
+        x: 2638
+        y: 1395
+        width: 718
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d9548a73a7beb439ee757e48178ed4
+      internalID: -1427534659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Space6_mag_interaction_0: 1299638645
+      Space6_mag_interaction_1: -1837674764
+      Space6_mag_interaction_10: 739657255
+      Space6_mag_interaction_11: 1194830675
+      Space6_mag_interaction_12: -1373859445
+      Space6_mag_interaction_13: 170064389
+      Space6_mag_interaction_14: 624312521
+      Space6_mag_interaction_15: -1078124025
+      Space6_mag_interaction_16: 78900017
+      Space6_mag_interaction_17: -2123366411
+      Space6_mag_interaction_18: 1198475682
+      Space6_mag_interaction_19: -1427534659
+      Space6_mag_interaction_2: -316420109
+      Space6_mag_interaction_20: -445142917
+      Space6_mag_interaction_21: 1307387639
+      Space6_mag_interaction_22: 1255098175
+      Space6_mag_interaction_23: 895991407
+      Space6_mag_interaction_24: 937011416
+      Space6_mag_interaction_25: -277858799
+      Space6_mag_interaction_26: 2133482063
+      Space6_mag_interaction_27: 1545848407
+      Space6_mag_interaction_28: -406181306
+      Space6_mag_interaction_3: -542060234
+      Space6_mag_interaction_4: 1014076108
+      Space6_mag_interaction_5: -1776139088
+      Space6_mag_interaction_6: -1807995154
+      Space6_mag_interaction_7: -1083459242
+      Space6_mag_interaction_8: -1991582999
+      Space6_mag_interaction_9: 1096446381
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

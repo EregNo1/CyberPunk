@@ -1,0 +1,496 @@
+fileFormatVersion: 2
+guid: 8506042d64c5fe342aab109af5de717b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Space2~3_mag_interaction_frame
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1956
+        width: 777
+        height: 684
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3caaee0fe3d44c468363d188b36cc51
+      internalID: -941669984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_mag_interaction_glass
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 1982
+        width: 562
+        height: 642
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb284cd4737f2d241b8ebe2ff2372deb
+      internalID: -1801980711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_mag_interaction_frameback
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 1982
+        width: 562
+        height: 642
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b6ed09cdc7a3043b40b5cefa4307db
+      internalID: -2001715906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_mag_interaction_plate
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 2069
+        width: 960
+        height: 344
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3402d71fb993f14db0590b744e1f237
+      internalID: 1756370022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_mag_interaction_5
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2281
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae42402c1b12f004bb90bf68380ba6cc
+      internalID: -1486793697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_mag_interaction_bottleB
+      rect:
+        serializedVersion: 2
+        x: 3333
+        y: 1894
+        width: 284
+        height: 712
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aca11e81a0f19c4782c4bb69da5fb6c
+      internalID: -1014310626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_mag_interaction_bottleS
+      rect:
+        serializedVersion: 2
+        x: 3718
+        y: 1883
+        width: 232
+        height: 582
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec8b61597e454a4fb9ebfce4aef5f70
+      internalID: -1552282468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_mag_interaction_box
+      rect:
+        serializedVersion: 2
+        x: 2696
+        y: 1138
+        width: 1223
+        height: 614
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4daa001a1a438814ba027aeedcaee1b9
+      internalID: -520027313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_mag_interaction_boxTop
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1193
+        width: 1245
+        height: 477
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af0ad6b55a75b44e8cd3795c876a978
+      internalID: 1930393902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_mag_interaction_boxOpen
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 1337
+        width: 1100
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e783eb4c90c8a42a46055640ed8b3f
+      internalID: 2144393601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_mag_interaction_boxLock
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 1153
+        width: 390
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0d144c1a63f6547926e33c8390a5cc
+      internalID: -1357217041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_mag_interaction_rock1
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 202
+        width: 872
+        height: 769
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0a5a1f3f28c564dbfb270ca6b0816f
+      internalID: -772729398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_mag_interaction_drink1
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 589
+        width: 73
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f039c1719dcd5d43809ba4e5235e1af
+      internalID: -1760879092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_mag_interaction_drink2
+      rect:
+        serializedVersion: 2
+        x: 3681
+        y: 591
+        width: 68
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddd47631c4528d4f8ee9f2de5ffd879
+      internalID: 1140301409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_mag_interaction_drink3
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 380
+        width: 91
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a545b4762325843b50ec6bfdeb993b
+      internalID: -1546335818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space2~3_mag_interaction_drink4
+      rect:
+        serializedVersion: 2
+        x: 3667
+        y: 374
+        width: 119
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1bfa9503815f924985a444fee1d02bf
+      internalID: -2058866326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Space2~3_mag_interaction_10: 138819855
+      Space2~3_mag_interaction_11: -1394466576
+      Space2~3_mag_interaction_12: -444258963
+      Space2~3_mag_interaction_13: -524692969
+      Space2~3_mag_interaction_14: -1217188715
+      Space2~3_mag_interaction_15: -1526015025
+      Space2~3_mag_interaction_16: 1745835971
+      Space2~3_mag_interaction_17: 1765585022
+      Space2~3_mag_interaction_18: -842831967
+      Space2~3_mag_interaction_22: -307628039
+      Space2~3_mag_interaction_24: -164917825
+      Space2~3_mag_interaction_26: -679993153
+      Space2~3_mag_interaction_27: -147888490
+      Space2~3_mag_interaction_28: 701644465
+      Space2~3_mag_interaction_3: -752128502
+      Space2~3_mag_interaction_5: -1486793697
+      Space2~3_mag_interaction_8: 14662629
+      Space2~3_mag_interaction_9: 1363642983
+      Space2~3_mag_interaction_bottleB: -1014310626
+      Space2~3_mag_interaction_bottleS: -1552282468
+      Space2~3_mag_interaction_box: -520027313
+      Space2~3_mag_interaction_boxLock: -1357217041
+      Space2~3_mag_interaction_boxOpen: 2144393601
+      Space2~3_mag_interaction_boxTop: 1930393902
+      Space2~3_mag_interaction_drink1: -1760879092
+      Space2~3_mag_interaction_drink2: 1140301409
+      Space2~3_mag_interaction_drink3: -1546335818
+      Space2~3_mag_interaction_drink4: -2058866326
+      Space2~3_mag_interaction_frame: -941669984
+      Space2~3_mag_interaction_frameback: -2001715906
+      Space2~3_mag_interaction_glass: -1801980711
+      Space2~3_mag_interaction_plate: 1756370022
+      Space2~3_mag_interaction_rock1: -772729398
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

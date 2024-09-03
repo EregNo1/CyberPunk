@@ -16,13 +16,13 @@ TagManager:
   - object
   - Water
   - UI
-  - damage
+  - Damage
   - Player
   - Mob
-  - 
-  - 
-  - 
-  - 
+  - Transfer
+  - Target
+  - Border
+  - Bujeok
   - 
   - 
   - 

@@ -1,0 +1,557 @@
+fileFormatVersion: 2
+guid: 7c8d9189a52955543a0e92f4cd54872f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Space5_mag_interaction_0
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 2311
+        width: 614
+        height: 880
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040ecf6737257514aa71e8b78056df3b
+      internalID: 160612625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space5_mag_interaction_1
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 2328
+        width: 1075
+        height: 728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29eccd19fd5acf24cbcbc0c82280d9bb
+      internalID: -1827408629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space5_mag_interaction_2
+      rect:
+        serializedVersion: 2
+        x: 2323
+        y: 2866
+        width: 897
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc465232b001564f9b9caea7ffd7563
+      internalID: 2086358277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space5_mag_interaction_3
+      rect:
+        serializedVersion: 2
+        x: 3571
+        y: 2271
+        width: 784
+        height: 834
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e81babacfe74904babb12a011a1d4b0
+      internalID: -1032046751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space5_mag_interaction_4
+      rect:
+        serializedVersion: 2
+        x: 4562
+        y: 2972
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c633579ebdb589047831dec9f42627fa
+      internalID: 406475267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space5_mag_interaction_5
+      rect:
+        serializedVersion: 2
+        x: 4360
+        y: 2893
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2187ba4ac64697643bee192c8c27dc18
+      internalID: 953972497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space5_mag_interaction_6
+      rect:
+        serializedVersion: 2
+        x: 4513
+        y: 2695
+        width: 175
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b659c591ae6bb374e9c20e5a51c7d4d3
+      internalID: -624542138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space5_mag_interaction_7
+      rect:
+        serializedVersion: 2
+        x: 4733
+        y: 2695
+        width: 175
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6b3868e116fb1469e52edb36025cb1
+      internalID: -1243254366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space5_mag_interaction_8
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 2533
+        width: 476
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e27371d749f23643be505b5b7f2ba3f
+      internalID: -412737922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space5_mag_interaction_21
+      rect:
+        serializedVersion: 2
+        x: 3368
+        y: 1520
+        width: 1517
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c2876d125f2be4082ded05635302e5
+      internalID: 1032496519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space5_mag_interaction_23
+      rect:
+        serializedVersion: 2
+        x: 2318
+        y: 650
+        width: 865
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485d00bebf48f3a4186c0b32115019cb
+      internalID: 1689890059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space5_mag_interaction_10
+      rect:
+        serializedVersion: 2
+        x: 2897
+        y: 2360
+        width: 563
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbc29535e4116f4ea83eadc6493acda
+      internalID: -618453091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space5_mag_interaction_12
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1990
+        width: 1322
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c71ccf2be841b419cd9a23860f0f3c
+      internalID: -1357979769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space5_mag_interaction_14
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 1408
+        width: 300
+        height: 791
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618678ec222625646bc4cf60acfecc14
+      internalID: 605052301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space5_mag_interaction_18
+      rect:
+        serializedVersion: 2
+        x: 2327
+        y: 1452
+        width: 866
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7e07a4486ef644f8a46ce5e17d7eca
+      internalID: 1144259226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space5_mag_interaction_20
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1395
+        width: 1530
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e28eb9cbc18e0f4db189c13c4c7295e
+      internalID: -1455289874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space5_mag_interaction_26
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 685
+        width: 1537
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea2aaf5a689032478116df850dc882a
+      internalID: 23530944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space5_mag_interaction_28
+      rect:
+        serializedVersion: 2
+        x: 3346
+        y: 658
+        width: 1515
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ced263fb89e1a84299bcf35fcfa0b22
+      internalID: -188646625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Space5_mag_interaction_29
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 275
+        width: 1334
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d3c8c1e6b406a4c85905d8a8c649ca
+      internalID: -844895028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Space5_mag_interaction_0: 160612625
+      Space5_mag_interaction_1: -1827408629
+      Space5_mag_interaction_10: -618453091
+      Space5_mag_interaction_11: -241607785
+      Space5_mag_interaction_12: -1357979769
+      Space5_mag_interaction_13: -48233549
+      Space5_mag_interaction_14: 605052301
+      Space5_mag_interaction_15: -1687858121
+      Space5_mag_interaction_16: 1744831288
+      Space5_mag_interaction_17: -48091212
+      Space5_mag_interaction_18: 1144259226
+      Space5_mag_interaction_19: -1708957348
+      Space5_mag_interaction_2: 2086358277
+      Space5_mag_interaction_20: -1455289874
+      Space5_mag_interaction_21: 1032496519
+      Space5_mag_interaction_22: 413481818
+      Space5_mag_interaction_23: 1689890059
+      Space5_mag_interaction_24: -571900992
+      Space5_mag_interaction_25: 393817220
+      Space5_mag_interaction_26: 23530944
+      Space5_mag_interaction_27: 1659372277
+      Space5_mag_interaction_28: -188646625
+      Space5_mag_interaction_29: -844895028
+      Space5_mag_interaction_3: -1032046751
+      Space5_mag_interaction_30: -2044796844
+      Space5_mag_interaction_4: 406475267
+      Space5_mag_interaction_5: 953972497
+      Space5_mag_interaction_6: -624542138
+      Space5_mag_interaction_7: -1243254366
+      Space5_mag_interaction_8: -412737922
+      Space5_mag_interaction_9: 165783897
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -30,24 +30,11 @@ public class Bullet : MonoBehaviour
 
 
 
-
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Border"))
-        {
-            Debug.Log("벽에 충돌!");
-            bulletrb.velocity = Vector2.zero;
-            animator.Play("bujeok_hit");
-            StartCoroutine(DestroyBujeok());
-
-        }
-        else if (collision.gameObject.CompareTag("Mob"))
-        {
-            Debug.Log("몬스터에게 충돌!");
-            //Instantiate(RangeHitEffect, transform.position, Quaternion.identity); // 히트 효과 생성
-            // collision.SendMessage("Demaged", 10); // Demaged 함수 호출, 원거리 공격력(10, 임시)만큼 피해  TODO
-            StartCoroutine(DestroyBujeok());
-        }
+        animator.Play("bujeok_hit");
+        bulletrb.velocity = Vector2.zero;
+        StartCoroutine(DestroyBujeok());
     }
 
 
