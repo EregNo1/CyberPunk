@@ -1,0 +1,325 @@
+fileFormatVersion: 2
+guid: 297b70836e0d13f40964e91e072f0928
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 250
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gross_Bullet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 815
+        height: 240
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 100, y: 140, z: 300, w: 50}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d6a8c234af5b54b8e4b66b28d5b70b
+      internalID: 1818403080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gross_Bullet_1
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 569
+        width: 700
+        height: 151
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 100, y: 50, z: 70, w: 50}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed6f7150c0bb07469a4d72413706d4d
+      internalID: -378232946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gross_Bullet_2
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 480
+        width: 815
+        height: 240
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 100, y: 0, z: 300, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201fd72e2f20a3445a35d8a9f2a80ffe
+      internalID: 1499404582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gross_Bullet_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 815
+        height: 240
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 100, y: 0, z: 300, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ad678390fe67b49a688ae46098d132
+      internalID: -1123947027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gross_Bullet_4
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 240
+        width: 815
+        height: 240
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 100, y: 0, z: 300, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a41ad72d1c7a2740868dc879635aa70
+      internalID: -1537193725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gross_Bullet_5
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 240
+        width: 815
+        height: 240
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 100, y: 0, z: 300, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018d32f0fc001a84db086207ea65381d
+      internalID: 463657848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gross_Bullet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 815
+        height: 240
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 100, y: 0, z: 300, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d382681d9c33b648820ef862767ed08
+      internalID: 163435802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gross_Bullet_7
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 0
+        width: 815
+        height: 240
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 100, y: 0, z: 300, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1123061a44077274485d47d1ce6591dc
+      internalID: 1309753633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gross_Bullet_8
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 0
+        width: 815
+        height: 240
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 100, y: 0, z: 300, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c18499722d18864e8bdfed90a13f016
+      internalID: -2082989931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Gross_Bullet_0: 1818403080
+      Gross_Bullet_1: -378232946
+      Gross_Bullet_2: 1499404582
+      Gross_Bullet_3: -1123947027
+      Gross_Bullet_4: -1537193725
+      Gross_Bullet_5: 463657848
+      Gross_Bullet_6: 163435802
+      Gross_Bullet_7: 1309753633
+      Gross_Bullet_8: -2082989931
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

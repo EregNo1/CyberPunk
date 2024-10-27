@@ -9,6 +9,7 @@ public class Ghost_Bullet : MonoBehaviour
     public float bulletSpeed = 5f;
     public float delayBeforeFire = 0.5f;
 
+    Animator animator;
     Rigidbody2D ghostBullet_rb;
     Vector2 fireDirection;
 
@@ -17,6 +18,7 @@ public class Ghost_Bullet : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
         ghostBullet_rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
 
         StartCoroutine(BulletFire());
     }
@@ -51,7 +53,7 @@ public class Ghost_Bullet : MonoBehaviour
     //파괴 애니메이션 딜레이 코루틴
     IEnumerator Mob1BulletDestroy()
     {
-        //animator.Play("mob1_BulletHit"); //총알 파괴 애니메이션 재생
+        animator.Play("mob1_BulletHit"); //총알 파괴 애니메이션 재생
 
         yield return new WaitForSeconds(0.5f);//파괴 애니메이션 딜레이
 

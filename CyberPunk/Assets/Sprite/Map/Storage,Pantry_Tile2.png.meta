@@ -1,0 +1,513 @@
+fileFormatVersion: 2
+guid: 0456f330f9f87c144999c5f7840547a4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Storage,Pantry_Tile2_8
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1680
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43cfbb834fdabc143abee4f926365b99
+      internalID: 1526242549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Storage,Pantry_Tile2_17
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1440
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ad0b4a68bc17d4caf2647f154e0207
+      internalID: -1936899292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Storage,Pantry_Tile2_26
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1200
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a5170cf3640604f914b98e6e396426
+      internalID: -1139339039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Storage,Pantry_Tile2_33
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 960
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0392da6586b204cbd8555ae00cb195
+      internalID: -1076137699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Storage,Pantry_Tile2_34
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 960
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643fa8514976420468cf056e56db3de4
+      internalID: 1707144609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Storage,Pantry_Tile2_35
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 960
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c44b560e3415b45846a9e3ce0326e7
+      internalID: -1464614087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Storage,Pantry_Tile2_42
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 720
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c37cdf774fb9d4292807907030c393
+      internalID: 356351513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Storage,Pantry_Tile2_43
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 720
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5497ab18465578c4ea1121e80031eeb5
+      internalID: 1118642243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Storage,Pantry_Tile2_44
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 720
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9e849674c063d4ca41028ee4e8249d
+      internalID: 26781156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Storage,Pantry_Tile2_53
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 480
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c1b048824cf9940916890c0c2afe21
+      internalID: 1882404991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Storage,Pantry_Tile2_55
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e18eaca444738b458e8cece18b309ba
+      internalID: 578742907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Storage,Pantry_Tile2_56
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 240
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514b1183a9f281e4aaa47540623b1a2c
+      internalID: -196775225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Storage,Pantry_Tile2_57
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 240
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce974ef17a21c5942926e2393652c39a
+      internalID: 175265994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Storage,Pantry_Tile2_58
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 240
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf35a793188f50d45984807a5776eb1c
+      internalID: 525540962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Storage,Pantry_Tile2_59
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 240
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce01edea588b645408246f9814961820
+      internalID: 946452000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Storage,Pantry_Tile2_0: 417060616
+      Storage,Pantry_Tile2_1: 1984937300
+      Storage,Pantry_Tile2_10: -1029252725
+      Storage,Pantry_Tile2_11: 1116898873
+      Storage,Pantry_Tile2_12: 178615137
+      Storage,Pantry_Tile2_13: 153234011
+      Storage,Pantry_Tile2_14: 744596431
+      Storage,Pantry_Tile2_15: 2140994239
+      Storage,Pantry_Tile2_16: -2043507701
+      Storage,Pantry_Tile2_17: -1936899292
+      Storage,Pantry_Tile2_18: -104271162
+      Storage,Pantry_Tile2_19: 204227448
+      Storage,Pantry_Tile2_2: -229117570
+      Storage,Pantry_Tile2_20: -114964016
+      Storage,Pantry_Tile2_21: -487605593
+      Storage,Pantry_Tile2_22: 895452881
+      Storage,Pantry_Tile2_23: -904424600
+      Storage,Pantry_Tile2_24: -644738258
+      Storage,Pantry_Tile2_25: 781738883
+      Storage,Pantry_Tile2_26: -1139339039
+      Storage,Pantry_Tile2_27: -715431731
+      Storage,Pantry_Tile2_28: -1113172903
+      Storage,Pantry_Tile2_29: 1485971434
+      Storage,Pantry_Tile2_3: 1683399238
+      Storage,Pantry_Tile2_30: -1793722824
+      Storage,Pantry_Tile2_31: 76170931
+      Storage,Pantry_Tile2_32: -604757330
+      Storage,Pantry_Tile2_33: -1076137699
+      Storage,Pantry_Tile2_34: 1707144609
+      Storage,Pantry_Tile2_35: -1464614087
+      Storage,Pantry_Tile2_36: -1564852980
+      Storage,Pantry_Tile2_37: 337374517
+      Storage,Pantry_Tile2_38: 1936322459
+      Storage,Pantry_Tile2_39: 792149865
+      Storage,Pantry_Tile2_4: 250895141
+      Storage,Pantry_Tile2_40: -1249566980
+      Storage,Pantry_Tile2_41: 519075137
+      Storage,Pantry_Tile2_42: 356351513
+      Storage,Pantry_Tile2_43: 1118642243
+      Storage,Pantry_Tile2_44: 26781156
+      Storage,Pantry_Tile2_45: 125824162
+      Storage,Pantry_Tile2_46: 156329690
+      Storage,Pantry_Tile2_47: 31097128
+      Storage,Pantry_Tile2_48: -1657315715
+      Storage,Pantry_Tile2_49: 1394834430
+      Storage,Pantry_Tile2_5: -998444620
+      Storage,Pantry_Tile2_50: -1717707711
+      Storage,Pantry_Tile2_51: 1935146647
+      Storage,Pantry_Tile2_52: 1561253470
+      Storage,Pantry_Tile2_53: 1882404991
+      Storage,Pantry_Tile2_54: -1456208489
+      Storage,Pantry_Tile2_55: 578742907
+      Storage,Pantry_Tile2_56: -196775225
+      Storage,Pantry_Tile2_57: 175265994
+      Storage,Pantry_Tile2_58: 525540962
+      Storage,Pantry_Tile2_59: 946452000
+      Storage,Pantry_Tile2_6: -854055553
+      Storage,Pantry_Tile2_60: 123693585
+      Storage,Pantry_Tile2_61: 537390731
+      Storage,Pantry_Tile2_62: -1237158820
+      Storage,Pantry_Tile2_63: 268687872
+      Storage,Pantry_Tile2_64: 2023590674
+      Storage,Pantry_Tile2_65: -67125062
+      Storage,Pantry_Tile2_66: 1731664805
+      Storage,Pantry_Tile2_67: 306733002
+      Storage,Pantry_Tile2_68: 312668361
+      Storage,Pantry_Tile2_69: 1240730823
+      Storage,Pantry_Tile2_7: -93125047
+      Storage,Pantry_Tile2_70: -602875082
+      Storage,Pantry_Tile2_8: 1526242549
+      Storage,Pantry_Tile2_9: 686650410
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

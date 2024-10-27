@@ -1,0 +1,633 @@
+fileFormatVersion: 2
+guid: 0e0283475cd7f3648ad790554d89e456
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 220
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Creeper_Bomb_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1035
+        width: 455
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c588e858061fe74dae6ab35364730ad
+      internalID: 343617610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creeper_Bomb_1
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1035
+        width: 455
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe3757d5221708408a15468e944d42b
+      internalID: 223388849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creeper_Bomb_2
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 1035
+        width: 455
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8753d5481e2a0c438c4a5b5240181e7
+      internalID: -1675053366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creeper_Bomb_3
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1035
+        width: 455
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8264158b342680549aa6227ecb3dac3e
+      internalID: 1188222738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creeper_Bomb_4
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 1035
+        width: 455
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485ef32c7b8212e408587f3116c65818
+      internalID: -66432998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creeper_Bomb_5
+      rect:
+        serializedVersion: 2
+        x: 2275
+        y: 1035
+        width: 455
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e5955d3b4b20b448c200f8d20f14e3
+      internalID: 1880431476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creeper_Bomb_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 690
+        width: 455
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbdb9cbf82b43149af683cd5919036d
+      internalID: -1882327444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creeper_Bomb_7
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 690
+        width: 455
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8733364ba9b31054db2b92651441d4b0
+      internalID: 1893143866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creeper_Bomb_8
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 690
+        width: 455
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042f955f2b82fb648a8b3f40415f756b
+      internalID: 617982830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creeper_Bomb_9
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 690
+        width: 455
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8755622471a27804b9e5b78ac1987edd
+      internalID: 1596631524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creeper_Bomb_10
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 690
+        width: 455
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586182b3ce37ac44ab588e0b5529dcab
+      internalID: -1617864574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creeper_Bomb_11
+      rect:
+        serializedVersion: 2
+        x: 2275
+        y: 690
+        width: 455
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedb219a8f786b0429e173d95ad27d1b
+      internalID: -1004098287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creeper_Bomb_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 345
+        width: 455
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1c866986cc8ae46b5cf50882cf7a25
+      internalID: -200877300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creeper_Bomb_13
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 345
+        width: 455
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f692e5236d1ac489ddbfd68e44f5da
+      internalID: 144320264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creeper_Bomb_14
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 345
+        width: 455
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e664ad6955f50704c83aa78185c07c90
+      internalID: 159261239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creeper_Bomb_15
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 345
+        width: 455
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f84d9dbfd12ccb43b097e65d2d27068
+      internalID: 1082900721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creeper_Bomb_16
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 345
+        width: 455
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128acdcaf1114d44c90c3a2d22373f57
+      internalID: 886208060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creeper_Bomb_17
+      rect:
+        serializedVersion: 2
+        x: 2275
+        y: 345
+        width: 455
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96008d3a4a92764e878cbafd15191b5
+      internalID: 1486519058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creeper_Bomb_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 455
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12505d705c7cb3d4e985e03f4d917d27
+      internalID: 1209494154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creeper_Bomb_19
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 0
+        width: 455
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732ef3f4be993ec4a94c55f42fdd8143
+      internalID: 423384960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creeper_Bomb_20
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 0
+        width: 455
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77b39e5ad094d645890c5e8b3010ac5
+      internalID: 1495568356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creeper_Bomb_21
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 0
+        width: 455
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b758bd27dfe72a74996315780483da98
+      internalID: -1248651481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creeper_Bomb_22
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 0
+        width: 455
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af9cde5669d8694184a43aa2470bcd7
+      internalID: 1781858640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Creeper_Bomb_0: 343617610
+      Creeper_Bomb_1: 223388849
+      Creeper_Bomb_10: -1617864574
+      Creeper_Bomb_11: -1004098287
+      Creeper_Bomb_12: -200877300
+      Creeper_Bomb_13: 144320264
+      Creeper_Bomb_14: 159261239
+      Creeper_Bomb_15: 1082900721
+      Creeper_Bomb_16: 886208060
+      Creeper_Bomb_17: 1486519058
+      Creeper_Bomb_18: 1209494154
+      Creeper_Bomb_19: 423384960
+      Creeper_Bomb_2: -1675053366
+      Creeper_Bomb_20: 1495568356
+      Creeper_Bomb_21: -1248651481
+      Creeper_Bomb_22: 1781858640
+      Creeper_Bomb_3: 1188222738
+      Creeper_Bomb_4: -66432998
+      Creeper_Bomb_5: 1880431476
+      Creeper_Bomb_6: -1882327444
+      Creeper_Bomb_7: 1893143866
+      Creeper_Bomb_8: 617982830
+      Creeper_Bomb_9: 1596631524
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

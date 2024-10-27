@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Chaser
   m_EditorClassIdentifier: 
   health: 7
-  movementSpeed: 4
+  movementSpeed: 2.8

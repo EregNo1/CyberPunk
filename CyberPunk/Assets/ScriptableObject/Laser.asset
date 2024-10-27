@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Laser
   m_EditorClassIdentifier: 
   health: 9
-  movementSpeed: 0
+  movementSpeed: 1.5

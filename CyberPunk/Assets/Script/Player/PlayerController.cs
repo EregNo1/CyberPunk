@@ -7,20 +7,20 @@ using UnityEngine.UI;
 public class PlayerController : MonoBehaviour
 {
     public List_DIalogue list_Dialogue;
+    public HP hpManager;
     public GameObject gameOver;
+
 
     float h;
     float v;
     public static bool ishit;
+    public static bool keySwap = false;
 
     public float speed;
     public float invincTime;
-    public int currentHP = 2;
 
     public float knockBackSpeed;// 0 ~ 1 사이의 값
     public float knockBackDistance; //넉백 거리 
-    public float knockBackDuration;
-    float knockBackTime;
     Vector2 knockBackPosition;
     bool isKnockBack = false;
 
@@ -51,64 +51,37 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-
-        h = Input.GetAxisRaw("Horizontal");
-        v = Input.GetAxisRaw("Vertical");
-
-        //넉백이... 
-        if (isKnockBack == true)
+        if (keySwap == false)
         {
-            knockBackTime += Time.deltaTime;
-            transform.position = Vector2.Lerp(transform.position, knockBackPosition, knockBackSpeed);
+            h = Input.GetAxisRaw("Horizontal");
+            v = Input.GetAxisRaw("Vertical");
+        }
+        else
+        {
+            h = Input.GetAxisRaw("Horizontal_swap");
+            v = Input.GetAxisRaw("Vertical_swap");
+        }
 
-            if (knockBackTime >= knockBackDuration || Vector2.Distance(transform.position, knockBackPosition) < 0.1f)
+        if (isKnockBack)
+        {
+            float distanceMoved = Vector2.Distance(rigid.position, rigid.position + knockBackPosition);
+            if (distanceMoved >= knockBackDistance)
             {
                 isKnockBack = false;
+                rigid.velocity = Vector2.zero;  // 밀려난 후 멈춤
             }
         }
 
-        //Space를 누르면 충돌한 오브젝트 이름을 스캔해 알맞은 다이얼로그 출력
-        /*if (DialogueManager.Instance.istalk == false)
-        {
-            if (Input.GetKeyDown(KeyCode.Space) && scanObject != null)
-            {
-                Debug.Log("Hit :" + scanObject.name);
-                DialogueAction();
-                DialogueManager.Instance.istalk = true;
-            }
-
-
-        }*/
     }
 
 
     private void FixedUpdate()
     {
+        if (isKnockBack) return;
         if(ishit == false)
         {
             PlayerControll();//피격 애니메이션이 재생중인 동안은 이동 불가
         }
-
-        /*Collider2D check = Physics2D.OverlapCircle(rigid.position, 1, LayerMask.GetMask("object")); //오브젝트 체크 (다이얼로그 출력용)
-        Collider2D hit = Physics2D.OverlapCircle(rigid.position, 0.5f, LayerMask.GetMask("damage")); //히트 체크 (전투 전용)
-
-
-        if (check != null) //충돌한 오브젝트가 check일 경우 
-        {
-            scanObject = check.gameObject; //scanObject에 충돌한 오브젝트 대입
-        }
-        else if (hit != null) //충돌한 오브젝트가 hit일 경우
-        {
-            scanObject = hit.gameObject;//scanObject에 충돌한 오브젝트 대입
-
-            StartCoroutine(hit_Delay()); //히트 딜레이 코루틴(히트 함수 포함)
-            
-        }
-        else //충돌한 것이 없으면 null 처리
-        {
-            scanObject = null;
-        }*/
-
 
     }
 
@@ -120,7 +93,7 @@ public class PlayerController : MonoBehaviour
             {
                 ishit = true; //이동 조작 막기
                 isinvinc = true;
-                KnockBack(collision.transform.position);
+                KnockBack(collision.transform.position); //KnockBack함수에 닿은 위치 전달
             }
         }
 
@@ -133,8 +106,8 @@ public class PlayerController : MonoBehaviour
             {
                 ishit = true; //이동 조작 막기
                 isinvinc = true;
-                ContactPoint2D contact = collision.GetContact(0);
-                KnockBack(contact.point);
+                ContactPoint2D contact = collision.GetContact(0); //contact에 닿은 위치 저장
+                KnockBack(contact.point);//KnockBack함수에 닿은 위치 전달
             }
         }
 
@@ -143,42 +116,46 @@ public class PlayerController : MonoBehaviour
     void KnockBack(Vector2 contactPoint)
     {
 
-        if (contactPoint.x < transform.position.x)
+        if (contactPoint.x < transform.position.x) //왼쪽에서 부딪힘
         {
 
-            if (currentHP <= 0)
+            if (hpManager.hpNum <= 1) //hp가 0이 될 시 사망 애니메이션 재생
             {
                 anim.Play("Hero_DeadL");
                 Die();
             }
             else
             {
-                anim.Play("Hero_HitL");
+                hpManager.damage_Ani(); //데미지 효과 애니메이션 재생
+                anim.Play("Hero_HitL"); //캐릭터 피격 애니메이션 재생
                 StartCoroutine(hit_Delay()); //애니메이션 종료, 이동조작 관리
 
-                knockBackDetail((Vector3)contactPoint);
+                knockBackDetail((Vector3)contactPoint);//knockBackDetail함수에 닿은 위치 전달 (넉백 실행)
 
-                currentHP--; //체력 감소
-                Debug.Log("Player HP: " + currentHP);
+
+                hpManager.hpNum--; //체력 감소
+                hpManager.hpUpdate(); //체력 UI 업데이트
             }
         }
-        else
+        else //오른쪽에서 부딪힘
         {
 
-            if (currentHP <= 0)
+            if (hpManager.hpNum <= 1) //hp가 0이 될 시 사망 애니메이션 재생
             {
                 anim.Play("Hero_DeadR");
                 Die();
             }
             else
             {
-                anim.Play("Hero_HitR");
+                hpManager.damage_Ani(); //데미지 효과 애니메이션 재생
+                anim.Play("Hero_HitR"); //캐릭터 피격 애니메이션 재생
                 StartCoroutine(hit_Delay()); //애니메이션 종료, 이동조작 관리
 
-                knockBackDetail((Vector3)contactPoint);
+                knockBackDetail((Vector3)contactPoint); //knockBackDetail함수에 닿은 위치 전달 (넉백 실행)
 
-                currentHP--; //체력 감소
-                Debug.Log("Player HP: " + currentHP);
+
+                hpManager.hpNum--; //체력 감소
+                hpManager.hpUpdate(); //체력 UI 업데이트
             }
         }
 
@@ -187,13 +164,14 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    void knockBackDetail(Vector3 conP)
+    void knockBackDetail(Vector2 conP)
     {
-        knockBackTime = 0;
-        rigid.velocity = Vector2.zero;
-        Vector2 dir = (transform.position - conP).normalized;
-        knockBackPosition = (Vector2)transform.position + dir * knockBackDistance;
-        isKnockBack = true;
+        Vector2 knockBackPosition = (rigid.position - conP).normalized;
+
+        StartCoroutine(knockBackCoroutine(knockBackPosition));
+
+        /*isKnockBack = true;
+        rigid.velocity = knockBackPosition;*/
     }
 
     void Die()
@@ -206,14 +184,6 @@ public class PlayerController : MonoBehaviour
     }
 
 
-    //충돌 중인 오브젝트 이름에 따라 출력할 다이얼로그 결정
-    //수정 필요...
-    /*public void DialogueAction()
-    {
-        if (scanObject.name == "NPC_1") list_Dialogue.npc1_minigame();
-        if (scanObject.name == "NPC_2") list_Dialogue.npc2_talk();
-        if (scanObject.name == "frontdesk") list_Dialogue.desk_portraitTest();
-    }*/
 
 
     //플레이어 이동 함수
@@ -250,7 +220,20 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    IEnumerator knockBackCoroutine(Vector2 dir)
+    {
+        isKnockBack = true; // 넉백 중 상태
 
+        // 넉백 속도 적용
+        rigid.velocity = dir * knockBackSpeed;
+
+        // 넉백 시간 동안 대기
+        yield return new WaitForSeconds(knockBackDistance / knockBackSpeed);
+
+        // 속도 초기화 및 넉백 종료
+        rigid.velocity = Vector2.zero;
+        isKnockBack = false;
+    }
 
     //피격 후 딜레이 코루틴. 
     IEnumerator hit_Delay()

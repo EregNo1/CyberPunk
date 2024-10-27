@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class List_DIalogue : MonoBehaviour
 {
-
+    /*
     [SerializeField] DialogueList[] npc1_Minigame;
     [SerializeField] DialogueList[] npc2_Talk;
     [SerializeField] DialogueList[] desk_PortraitTest;
@@ -28,7 +28,7 @@ public class List_DIalogue : MonoBehaviour
     {
         DialogueManager.Instance.dialogueList = desk_PortraitTest;
         DialogueManager.Instance.start_dialogue();
-    }
+    }*/
 
 
 }

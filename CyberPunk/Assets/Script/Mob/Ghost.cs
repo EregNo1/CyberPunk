@@ -15,7 +15,8 @@ public class Ghost : MonoBehaviour
     SpriteRenderer ghost_sprite;
     Rigidbody2D rigid;
 
-
+    Animator pong_animator;
+    CircleCollider2D pong_col;
 
     private void Start()
     {
@@ -23,6 +24,8 @@ public class Ghost : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
         ghost_sprite = GetComponent<SpriteRenderer>();
         rigid = GetComponent<Rigidbody2D>();
+        pong_animator = GetComponent<Animator>();
+        pong_col = GetComponent<CircleCollider2D>();
         StartCoroutine(repeat());
     }
 
@@ -50,8 +53,11 @@ public class Ghost : MonoBehaviour
 
     void TakeDamage(float damage)
     {
+        pong_animator.Play("pong_Damaged");
+
         currentHealth -= damage;
         if (currentHealth <= 0)
+
         {
             Die();
         }
@@ -59,8 +65,8 @@ public class Ghost : MonoBehaviour
 
     void Die()
     {
-        RoomManager.instance.monsterDefeated();
-        Destroy(gameObject);
+                StopCoroutine(repeat());
+        StartCoroutine(pong_die());
     }
 
     void ghost_Move(Vector2 direction)
@@ -71,11 +77,31 @@ public class Ghost : MonoBehaviour
 
     }
 
+    public void moveAni()
+    {
+        pong_animator.Play("mob1_Moving");
+    }
+
+
+    IEnumerator pong_die()
+    {
+        pong_col.enabled = false;
+        pong_animator.Play("pong_Dead");
+        RoomManager.instance.monsterDefeated();
+
+        yield return new WaitForSeconds(2f);
+
+        Destroy(gameObject);
+    }
+
+
     IEnumerator repeat()
     {
+        yield return new WaitForSeconds(shootDelay);
         Instantiate(ghost_BulletPref, ghost_fireSpot.position, Quaternion.identity);
         Debug.Log("น฿ป็!");
-        yield return new WaitForSeconds(shootDelay);
         StartCoroutine(repeat());
     }
+
+
 }

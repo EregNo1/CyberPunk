@@ -26,6 +26,8 @@ public class MainControl : MonoBehaviour
     public GameObject window_Config;
     public Animator titleMenu;
 
+    bool isVideoEnd = false;
+
     int menucode = 0;
     public static bool isConfigOpen = false;
 
@@ -43,88 +45,91 @@ public class MainControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        if (isConfigOpen == false)
+        if (isVideoEnd)
         {
-            if (Input.GetKeyDown(KeyCode.DownArrow))
+            if (isConfigOpen == false)
             {
-                if (menucode < 3)
+                if (Input.GetKeyDown(KeyCode.DownArrow))
                 {
-                    menucode++;
-                }
-
-            }
-
-            if (Input.GetKeyDown(KeyCode.UpArrow))
-            {
-                if (menucode > 0)
-                {
-                    menucode--;
-                }
-
-            }
-
-
-            if (menucode == 0)
-            {
-                txt_NewGame.sprite = newGame_on;
-                txt_LoadGame.sprite = loadGame_off;
-                txt_Config.sprite = config_off;
-                txt_Quit.sprite = quit_off;
-
-                if (Input.GetKeyDown(KeyCode.Space))
-                {
-                    SceneManager.LoadScene("Game"); //게임시작 (Game Scene 불러오기)
-                                                    //저장된 게임이 있을 경우: 데이터 삭제 경고문 출력
-
+                    if (menucode < 3)
+                    {
+                        menucode++;
+                    }
 
                 }
 
-            }
-
-            if (menucode == 1)
-            {
-                txt_NewGame.sprite = newGame_off;
-                txt_LoadGame.sprite = loadGame_on;
-                txt_Config.sprite = config_off;
-                txt_Quit.sprite = quit_off;
-
-                if (Input.GetKeyDown(KeyCode.Space))
+                if (Input.GetKeyDown(KeyCode.UpArrow))
                 {
-                    //저장된 게임시작 (Game Scene 불러오기)
+                    if (menucode > 0)
+                    {
+                        menucode--;
+                    }
+
                 }
 
-            }
 
-            if (menucode == 2)
-            {
-                txt_NewGame.sprite = newGame_off;
-                txt_LoadGame.sprite = loadGame_off;
-                txt_Config.sprite = config_on;
-                txt_Quit.sprite = quit_off;
-
-                if (Input.GetKeyDown(KeyCode.Space))
+                if (menucode == 0)
                 {
-                    window_Config.SetActive(true); //Config Window 오픈
-                    isConfigOpen = true;
+                    txt_NewGame.sprite = newGame_on;
+                    txt_LoadGame.sprite = loadGame_off;
+                    txt_Config.sprite = config_off;
+                    txt_Quit.sprite = quit_off;
+
+                    if (Input.GetKeyDown(KeyCode.Space))
+                    {
+                        SceneManager.LoadScene("Game"); //게임시작 (Game Scene 불러오기)
+                                                        //저장된 게임이 있을 경우: 데이터 삭제 경고문 출력
+
+
+                    }
+
                 }
 
-            }
-
-            if (menucode == 3)
-            {
-                txt_NewGame.sprite = newGame_off;
-                txt_LoadGame.sprite = loadGame_off;
-                txt_Config.sprite = config_off;
-                txt_Quit.sprite = quit_on;
-
-                if (Input.GetKeyDown(KeyCode.Space))
+                if (menucode == 1)
                 {
-                    GameExit(); //게임 종료. 유니티 에디터에서는 게임 시뮬레이션 종료
+                    txt_NewGame.sprite = newGame_off;
+                    txt_LoadGame.sprite = loadGame_on;
+                    txt_Config.sprite = config_off;
+                    txt_Quit.sprite = quit_off;
+
+                    if (Input.GetKeyDown(KeyCode.Space))
+                    {
+                        //저장된 게임시작 (Game Scene 불러오기)
+                    }
+
                 }
 
+                if (menucode == 2)
+                {
+                    txt_NewGame.sprite = newGame_off;
+                    txt_LoadGame.sprite = loadGame_off;
+                    txt_Config.sprite = config_on;
+                    txt_Quit.sprite = quit_off;
+
+                    if (Input.GetKeyDown(KeyCode.Space))
+                    {
+                        window_Config.SetActive(true); //Config Window 오픈
+                        isConfigOpen = true;
+                    }
+
+                }
+
+                if (menucode == 3)
+                {
+                    txt_NewGame.sprite = newGame_off;
+                    txt_LoadGame.sprite = loadGame_off;
+                    txt_Config.sprite = config_off;
+                    txt_Quit.sprite = quit_on;
+
+                    if (Input.GetKeyDown(KeyCode.Space))
+                    {
+                        GameExit(); //게임 종료. 유니티 에디터에서는 게임 시뮬레이션 종료
+                    }
+
+                }
             }
         }
+       
 
 
       
@@ -159,7 +164,12 @@ public class MainControl : MonoBehaviour
     {
         yield return new WaitForSeconds(15f);
         titleMenu.Play("titleMenu_On");
-        
+
+        yield return new WaitForSeconds(2f);
+
+        isVideoEnd = true;
+
+
     }
 
 }

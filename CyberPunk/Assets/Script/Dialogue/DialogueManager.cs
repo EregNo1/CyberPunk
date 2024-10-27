@@ -1,174 +1,136 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using static System.Net.Mime.MediaTypeNames;
 
 [System.Serializable]
-public class DialogueList
+public struct Speaker
 {
-    public string name;
-    
-    [TextArea]
-    public string contexts;
+    public UnityEngine.UI.Text txt_name;
+    public UnityEngine.UI.Text txt_context;
+    public UnityEngine.UI.Image img_portrait;
+}
 
+[System.Serializable]
+public struct DialogueData
+{
+    public int speakerIndex;
     public Sprite portrait;
+    public string name;
+    [TextArea(3, 5)]
+    public string dialogue;
 }
 
 public class DialogueManager : MonoBehaviour
 {
+    [SerializeField] private GameObject DialogueSet;
 
-    public static DialogueManager Instance;
-    [Header("히어라키 요소")]
-    [SerializeField] GameObject DialogueSet;
-    //[SerializeField] GameObject image_NamePanel;
-        
-    [SerializeField] UnityEngine.UI.Text txt_name;
-    [SerializeField] UnityEngine.UI.Text txt_contexts;
-    [SerializeField] UnityEngine.UI.Image img_Portrait;
+    [SerializeField] private Speaker[] speakers;
 
+    [SerializeField] private DialogueData[] dialogs;
 
-    [Header("텍스트 스피드, 타이핑 여부 확인")]
-    [SerializeField] float txt_speed;
-    public bool istyping;
-    public bool istalk;
+    [SerializeField]
+    private bool isAutoStart = true;
 
-    [Header("다이얼로그")]
-    [SerializeField] public DialogueList[] dialogueList;
+    public bool isFirst = true;
+    public int currentTextIndex = -1;
+    public int currentSpeakerIndex = 0;
+
+    private float txt_speed = 0.1f;
+    private bool istyping = false;
 
 
-    public testcodeMinigame test;
+    public string currentText;
 
 
+    public int id;//다이얼로그 순서
 
 
 
-    string currentText;
-    int id;//다이얼로그 순서
-
-    
-
-    // Start is called before the first frame update
-    void Awake()
+    private void Setup()
     {
-        Instance = this;
-        DontDestroyOnLoad(this.gameObject);
-
-       id = 0;
+        DialogueSet.SetActive(true);
     }
 
-    private void Start()
+    public bool UpdateDialog()
     {
+        if (isFirst == true)
+        {
 
-    }
+            Setup();
 
-    // Update is called once per frame
-    void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.Space)){
-            Debug.Log(istalk);
+            if (isAutoStart) next_dialogue();
+
+            isFirst = false;
+            PlayerController.ishit = true;
         }
 
-        if (istalk)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (istyping == true)
             {
-                //Debug.Log(id);
-                if (istyping)
-                {
-                    StopAllCoroutines();
-                    txt_contexts.text = currentText;
-                    istyping = false;
-                }
+                istyping = false;
 
-                else
-                {
-                    next_dialogue();
-                }
+                StopCoroutine("OnTypingText");
+                speakers[currentSpeakerIndex].txt_context.text = dialogs[currentTextIndex].dialogue;
+
+                return false;
+            }
+
+
+            if (dialogs.Length > currentTextIndex + 1)
+            {
+                next_dialogue();
+            }
+            else
+            {
+                DialogueSet.SetActive(false);
+                PlayerController.ishit = false;
+
+                return true;
             }
         }
 
-
-
-    }
-
-
-
-    public void start_dialogue() //다이얼로그를 시작하는 함수
-    {
-
-
-        id = 0;
-
-        DialogueSet.SetActive(true);
-        next_dialogue();
-
-
-
+        return false;
     }
 
     public void next_dialogue() //다음 다이얼로그로 넘어가는 함수
     {
-        Debug.Log("work");
+        //다음 대사 진행
+        currentTextIndex++;
 
-        if (istyping)
-        {
-            StopAllCoroutines();
-            txt_contexts.text = currentText;
-            istyping = false;
-        }
+        //현재 화자 순번 설정
+        currentSpeakerIndex = dialogs[currentTextIndex].speakerIndex;
 
-        else if (!istyping && id < dialogueList.Length)
-        {
-            string txt_change = dialogueList[id].contexts;
+        //현재 화자의 대사 텍스트 설정
+        StartCoroutine("OnTypingText");
+        //speakers[currentSpeakerIndex].txt_context.text = dialogs[currentTextIndex].dialogue;
 
-            //다음 배열로
-            txt_name.text = dialogueList[id].name;
-            txt_contexts.text = dialogueList[id].contexts;
-            img_Portrait.sprite = dialogueList[id].portrait;
+        //현재 화자의 이름 텍스트 설정
+        speakers[currentSpeakerIndex].txt_name.text = dialogs[currentTextIndex].name;
+
+        //현재 화자의 초상화 이미지 설정
+        speakers[currentSpeakerIndex].img_portrait.sprite = dialogs[currentTextIndex].portrait;
 
 
-            id++;
-
-            StartCoroutine(Typing(txt_change)); 
-        }
-        else
-        {
-            
-            DialogueSet.SetActive(false); //다음 배열이 없을 시 다이얼로그 창 off
-            StartCoroutine(istalking());
-           if(List_DIalogue.isminigame == true)
-            {
-                test.buttonOn();
-            }
-        }
     }
 
-
-    IEnumerator Typing(string text)
+    IEnumerator OnTypingText()
     {
-        txt_contexts.text = string.Empty;
-        currentText = text;
+        int index = 0;
 
-        StringBuilder stringBuilder = new StringBuilder();
+        istyping = true;
 
-        for (int i = 0; i < text.Length; i++)
+        while (index <= dialogs[currentTextIndex].dialogue.Length)
         {
-            stringBuilder.Append(text[i]);
-            txt_contexts.text = stringBuilder.ToString();
-
+            speakers[currentSpeakerIndex].txt_context.text = dialogs[currentTextIndex].dialogue.Substring(0, index);
+            index++;
             yield return new WaitForSeconds(txt_speed);
-            istyping = true;
         }
+
         istyping = false;
     }
-
-    IEnumerator istalking()
-    {
-        yield return new WaitForSeconds(1f);
-        istalk = false;
-    }
-
-
 }

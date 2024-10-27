@@ -6,23 +6,25 @@ using UnityEngine.UI;
 public class HP : MonoBehaviour
 {
     public Image hpFrame;
-
+    public Animator uiFrame;
+    public Animator vignetteColor;
+    
     public Sprite hp_3;
     public Sprite hp_2;
     public Sprite hp_1;
     public Sprite hp_0;
 
-    public static int hpNum = 3;
+    public int hpNum = 3;
 
 
-    // Start is called before the first frame update
-    void Start()
+    public void damage_Ani()
     {
-        
+
+        StartCoroutine(damage());
+
     }
 
-    // Update is called once per frame
-    void Update()
+    public void hpUpdate()
     {
         Debug.Log(hpNum);
 
@@ -32,22 +34,34 @@ public class HP : MonoBehaviour
             hpFrame.sprite = hp_3;
         }
 
-        if (hpNum == 2)
+        else if (hpNum == 2)
         {
             Debug.Log(hpNum);
             hpFrame.sprite = hp_2;
         }
 
-        if (hpNum == 1)
+        else if (hpNum == 1)
         {
             Debug.Log(hpNum);
             hpFrame.sprite = hp_1;
         }
 
-        if (hpNum == 0)
+        else if (hpNum == 0)
         {
             Debug.Log(hpNum);
             hpFrame.sprite = hp_0;
         }
+    }
+
+    IEnumerator damage()
+    {
+        vignetteColor.SetBool("isDamaged", true);
+        uiFrame.SetBool("isDamaged", true);
+
+
+        yield return new WaitForSeconds(1f);
+
+        uiFrame.SetBool("isDamaged", false);
+        vignetteColor.SetBool("isDamaged", false);
     }
 }

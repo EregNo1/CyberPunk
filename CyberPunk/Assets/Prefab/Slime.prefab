@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6285082262149749536}
   - component: {fileID: 9179525218195750443}
   - component: {fileID: 926477063532176711}
+  - component: {fileID: 8275919541250093028}
   m_Layer: 6
   m_Name: Slime
   m_TagString: Untagged
@@ -88,7 +89,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 20
   m_Sprite: {fileID: -400822338, guid: 3ac9dbfae79a13e43890efed5e1e9f1e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -146,7 +147,7 @@ CapsuleCollider2D:
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 16255
   m_ForceReceiveLayers:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -159,6 +160,27 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.21}
-  m_Size: {x: 0.8, y: 0.8}
+  m_Offset: {x: 0, y: -0.3}
+  m_Size: {x: 1.22, y: 0.66}
   m_Direction: 1
+--- !u!95 &8275919541250093028
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5236367337554012684}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5b6793ec9df94fb4db83d33836952e6c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

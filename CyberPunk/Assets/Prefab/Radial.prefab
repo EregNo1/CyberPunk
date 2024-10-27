@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 5027680670742859438}
   - component: {fileID: 7302969453399302860}
   - component: {fileID: 1715080636606264636}
+  - component: {fileID: 8935746963648030286}
   m_Layer: 6
   m_Name: Radial
   m_TagString: Untagged
@@ -108,7 +109,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 1706059328, guid: 64bb5776cc86c6243998ee4e9fc12c88, type: 3}
+  m_Sprite: {fileID: 547448844, guid: ad816fb248093cc4894dbfd54d9def80, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -133,7 +134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stats: {fileID: 11400000, guid: 09839e10730c00e4a8cfca5b9db01630, type: 2}
   shootDelay: 3
-  bulletSpeed: 5
+  bulletSpeed: 5.5
   numberOfBullet: 8
   radial_BulletPref: {fileID: 9189866713252972792, guid: df1520a3e648c9e46bb9187bb1049b30, type: 3}
   radial_fireSpot: {fileID: 1270447512773347547}
@@ -199,3 +200,24 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: -0.18}
   m_Size: {x: 1, y: 1}
   m_Direction: 0
+--- !u!95 &8935746963648030286
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4117718352470077737}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 52f78a75101d42441a8f1389a41ee303, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

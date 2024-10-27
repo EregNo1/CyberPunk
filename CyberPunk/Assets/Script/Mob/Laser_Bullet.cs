@@ -4,45 +4,21 @@ using UnityEngine;
 
 public class Laser_Bullet : MonoBehaviour
 {
-    public float expandSpeed = 10f;
-    public float duration = 4f;
 
-    bool isExpanding = true;
-    BoxCollider2D boxCol;
-    Vector3 initialPosition;
+    SpriteRenderer sr;
+    BoxCollider2D bc;
 
-
-    // Start is called before the first frame update
     void Start()
     {
-        boxCol = GetComponent<BoxCollider2D>();
-        initialPosition = transform.position;
-        StartCoroutine(LaserDuration());
+        sr = GetComponent<SpriteRenderer>();
+        bc = GetComponent<BoxCollider2D>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void FixedUpdate()
     {
-        if (isExpanding)
-        {
-            transform.localScale += new Vector3(expandSpeed * Time.deltaTime, 0, 0);
-            transform.position = new Vector3(initialPosition.x + (transform.localScale.x / 1.2f), initialPosition.y, initialPosition.z);
-        }
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Border"))
-        {
-            isExpanding = false;
-        }
-    }
-
-    IEnumerator LaserDuration()
-    {
-        Debug.Log("레이저 발사!");
-        yield return new WaitForSeconds(duration);
-        Destroy(gameObject);
-        Debug.Log("파괴");
+        RaycastHit2D ray = Physics2D.Raycast(transform.position, transform.right, Mathf.Infinity, LayerMask.GetMask("Border"));
+        sr.size = new Vector2(ray.distance, 0.85f);
+        bc.size = new Vector2(ray.distance, 0.85f);
+        bc.offset = new Vector2(ray.distance / 2, 0);
     }
 }

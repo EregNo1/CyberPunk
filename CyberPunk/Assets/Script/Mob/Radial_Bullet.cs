@@ -7,11 +7,12 @@ public class Radial_Bullet : MonoBehaviour
 {
 
     Rigidbody2D radialBullet_rb;
-
+    Animator animator;
 
     private void Start()
     {
         radialBullet_rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
 
@@ -21,7 +22,7 @@ public class Radial_Bullet : MonoBehaviour
         {
             Debug.Log("벽에 충돌!");
             radialBullet_rb.velocity = Vector2.zero;
-            //animator.Play("mob1_BulletHit");
+            animator.Play("Radial_Bullet_dis");
             StartCoroutine(BulletDestroy());
 
         }

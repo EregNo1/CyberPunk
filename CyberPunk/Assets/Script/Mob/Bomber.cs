@@ -12,13 +12,19 @@ public class Bomber : MonoBehaviour
     Vector2 bomber_movement;
     SpriteRenderer bomber_sprite;
 
+    Animator creeper_animator;
+    CapsuleCollider2D creeper_col;
+
     public float stopDis;
     public float explosionDelay;
     public float explosionRadius;
 
+    public GameObject explosion_bound;
     public GameObject explosion;
 
+
     bool isExploding = false;
+    bool isFirst = true;
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +32,8 @@ public class Bomber : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
         bomber_rb = GetComponent<Rigidbody2D>();
         bomber_sprite = GetComponent<SpriteRenderer>();
+        creeper_animator = GetComponent<Animator>();
+        creeper_col = GetComponent<CapsuleCollider2D>();
         currentHealth = stats.health;
     }
 
@@ -47,7 +55,7 @@ public class Bomber : MonoBehaviour
         {
             if (distanceToPlayer > stopDis) //거리가 가까워질 때까지 계속 이동
             {
-                Bomber_Move(bomber_movement);
+                StartCoroutine(BomberMove());
             }
             else //거리가 가까워지면 멈춤
             {
@@ -57,6 +65,16 @@ public class Bomber : MonoBehaviour
         }
 
     }
+    IEnumerator BomberMove()
+    {
+        {
+            if (isFirst) yield return new WaitForSeconds(1f);
+
+            Bomber_Move(bomber_movement);
+            isFirst = false;
+        }
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Bujeok"))
@@ -67,6 +85,8 @@ public class Bomber : MonoBehaviour
 
     void TakeDamage(float damage)
     {
+        creeper_animator.Play("Creeper_Damaged");
+
         currentHealth -= damage;
         if (currentHealth <= 0)
         {
@@ -76,8 +96,7 @@ public class Bomber : MonoBehaviour
 
     void Die()
     {
-        RoomManager.instance.monsterDefeated();
-        Destroy(gameObject);
+        StartCoroutine (chaser_die());
     }
 
     void Bomber_Move(Vector2 direction)
@@ -88,33 +107,58 @@ public class Bomber : MonoBehaviour
         else bomber_sprite.flipX = false;
     }
 
+    public void moveAni()
+    {
+        creeper_animator.Play("Creeper_Move");
+    }
+
+
+    IEnumerator chaser_die()
+    {
+        creeper_col.enabled = false;
+        creeper_animator.Play("Creeper_Dead");
+        RoomManager.instance.monsterDefeated();
+
+        yield return new WaitForSeconds(2f);
+
+        Destroy(gameObject);
+    }
+
     IEnumerator Explode()
     {
+        creeper_animator.Play("Creeper_Delay");
         isExploding = true;
         bomber_rb.velocity = Vector2.zero;
         float elapsed = 0f;
-        bomber_sprite.color = Color.red;
+        explosion_bound.SetActive(true);
 
         while (elapsed < explosionDelay)
         {
+
             elapsed += Time.deltaTime;
 
             if (Vector2.Distance(transform.position, player.position) > explosionRadius)
             {
-                bomber_sprite.color = Color.white;
+                explosion_bound.SetActive(false);
+                creeper_animator.Play("Creeper_Move");
                 isExploding = false;
                 yield break;
             }
+
 
             yield return null;
         }
         //yield return new WaitForSeconds(explosionDelay);
 
 
+        explosion_bound.SetActive(false);
+        creeper_animator.Play("Creeper_Bomb");
         //폭발 애니메이션 재생
         yield return new WaitForSeconds(0.1f); //애니메이션이 중간정도 진행된 후
         explosion.SetActive(true); //폭발 범위 콜라이더 활성화
         yield return new WaitForSeconds(0.5f);//콜라이더 유지
+
+        RoomManager.instance.monsterDefeated();
 
         Destroy(gameObject);
 

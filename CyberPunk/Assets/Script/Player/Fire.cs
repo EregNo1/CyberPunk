@@ -14,39 +14,80 @@ public class Fire : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.W))
+        if (PlayerController.keySwap == false)
         {
-            //Bullet.rotate.rotation = Quaternion.Euler(0, 0, 270);
-            Bullet.rotation = 90f;
-            Bullet.direction = Vector2.up;
-            fireBullet();
-            
+            if (Input.GetKeyDown(KeyCode.W))
+            {
+                //Bullet.rotate.rotation = Quaternion.Euler(0, 0, 270);
+                Bullet.rotation = 90f;
+                Bullet.direction = Vector2.up;
+                fireBullet();
+
+            }
+
+            if (Input.GetKeyDown(KeyCode.A))
+            {
+                //Bullet.rotate.rotation = Quaternion.Euler(0, 0, 180);
+                Bullet.rotation = 180f;
+                Bullet.direction = Vector2.left;
+                fireBullet();
+
+            }
+
+            if (Input.GetKeyDown(KeyCode.S))
+            {
+                //Bullet.rotate.rotation = Quaternion.Euler(0, 0, 90);
+                Bullet.rotation = 270f;
+                Bullet.direction = Vector2.down;
+                fireBullet();
+
+            }
+
+            if (Input.GetKeyDown(KeyCode.D))
+            {
+                //Bullet.rotate.rotation = Quaternion.Euler(0, 0, 0);
+                Bullet.rotation = 0f;
+                Bullet.direction = Vector2.right;
+                fireBullet();
+            }
         }
 
-        if (Input.GetKeyDown(KeyCode.A))
+        else if (PlayerController.keySwap == true)
         {
-            //Bullet.rotate.rotation = Quaternion.Euler(0, 0, 180);
-            Bullet.rotation = 180f;
-            Bullet.direction = Vector2.left;
-            fireBullet();
+            if (Input.GetKeyDown(KeyCode.UpArrow))
+            {
+                //Bullet.rotate.rotation = Quaternion.Euler(0, 0, 270);
+                Bullet.rotation = 90f;
+                Bullet.direction = Vector2.up;
+                fireBullet();
 
-        }
+            }
 
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            //Bullet.rotate.rotation = Quaternion.Euler(0, 0, 90);
-            Bullet.rotation = 270f;
-            Bullet.direction = Vector2.down;
-            fireBullet();
+            if (Input.GetKeyDown(KeyCode.LeftArrow))
+            {
+                //Bullet.rotate.rotation = Quaternion.Euler(0, 0, 180);
+                Bullet.rotation = 180f;
+                Bullet.direction = Vector2.left;
+                fireBullet();
 
-        }
+            }
 
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            //Bullet.rotate.rotation = Quaternion.Euler(0, 0, 0);
-            Bullet.rotation = 0f;
-            Bullet.direction = Vector2.right;
-            fireBullet();
+            if (Input.GetKeyDown(KeyCode.DownArrow))
+            {
+                //Bullet.rotate.rotation = Quaternion.Euler(0, 0, 90);
+                Bullet.rotation = 270f;
+                Bullet.direction = Vector2.down;
+                fireBullet();
+
+            }
+
+            if (Input.GetKeyDown(KeyCode.RightArrow))
+            {
+                //Bullet.rotate.rotation = Quaternion.Euler(0, 0, 0);
+                Bullet.rotation = 0f;
+                Bullet.direction = Vector2.right;
+                fireBullet();
+            }
         }
     }
 

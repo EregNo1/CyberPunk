@@ -7,20 +7,41 @@ public class Radial : MonoBehaviour
     public MonsterStats stats;
     float currentHealth;//현재 체력
 
+    Transform player;
     public float shootDelay;
     public float bulletSpeed = 5f;
     public int numberOfBullet = 8;
     public GameObject radial_BulletPref;
     public Transform radial_fireSpot;
+    Vector2 radial_movement;
+    Rigidbody2D rigid;
+    SpriteRenderer radial_sprite;
 
-
+    Animator radial_animator;
+    CapsuleCollider2D radial_col;
 
 
 
     private void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+        radial_sprite = GetComponent<SpriteRenderer>();
+        radial_animator = GetComponent<Animator>();
+        radial_col = GetComponent<CapsuleCollider2D>();
         StartCoroutine(repeat());
         currentHealth = stats.health;
+    }
+
+    private void Update()
+    {
+
+        if (player != null)
+        {
+            Vector2 direction = (player.position - transform.position).normalized;
+            radial_movement = direction;
+        }
+
+        radial_Move(radial_movement);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -33,6 +54,8 @@ public class Radial : MonoBehaviour
 
     void TakeDamage(float damage)
     {
+        radial_animator.Play("Radial_Damaged");
+
         currentHealth -= damage;
         if (currentHealth <= 0)
         {
@@ -42,8 +65,16 @@ public class Radial : MonoBehaviour
 
     void Die()
     {
-        RoomManager.instance.monsterDefeated();
-        Destroy(gameObject);
+        StopCoroutine(repeat());
+        StartCoroutine(radial_die());
+    }
+
+    void radial_Move(Vector2 direction)
+    {
+        if (direction.x < 0) radial_sprite.flipX = true;
+        else radial_sprite.flipX = false;
+
+
     }
 
     void FireBullet()
@@ -63,12 +94,28 @@ public class Radial : MonoBehaviour
         }
     }
 
+    public void moveAni()
+    {
+        radial_animator.Play("Radial_Move");
+    }
 
+
+    IEnumerator radial_die()
+    {
+
+        radial_col.enabled = false;
+        radial_animator.Play("Radial_Dead");
+        RoomManager.instance.monsterDefeated();
+
+        yield return new WaitForSeconds(2f);
+
+        Destroy(gameObject);
+    }
 
     IEnumerator repeat()
     {
-        FireBullet();
         yield return new WaitForSeconds(shootDelay);
+        FireBullet();
         StartCoroutine(repeat());
     }
 }

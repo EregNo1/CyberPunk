@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5141733994303708177}
   - component: {fileID: 6588522410475475622}
   - component: {fileID: 279495511676542310}
-  - component: {fileID: 6520974172755462505}
+  - component: {fileID: 5189969164772292668}
   m_Layer: 6
   m_Name: Laser_Bullet
   m_TagString: Untagged
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 11
-  m_Sprite: {fileID: -1466428523, guid: cd2e22aaf635d18489ea4411826a888b, type: 3}
+  m_Sprite: {fileID: 1818403080, guid: 297b70836e0d13f40964e91e072f0928, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -99,8 +99,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a96e500c88bdb74b97fa7e4aceb1502, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  expandSpeed: 20
-  duration: 4
+  expandSpeed: 100
+  duration: 2
 --- !u!50 &279495511676542310
 Rigidbody2D:
   serializedVersion: 4
@@ -128,7 +128,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &6520974172755462505
+--- !u!61 &5189969164772292668
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -157,19 +157,19 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -1.63, y: 0.18}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.73, y: 0.54}
+    border: {x: 0.4, y: 0, z: 1.2, w: 0}
+    pivot: {x: 1, y: 0.5}
+    oldSize: {x: 3.26, y: 0.96}
     newSize: {x: 10, y: 10}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.73, y: 0.54}
+  m_Size: {x: 3.26, y: 0.48}
   m_EdgeRadius: 0

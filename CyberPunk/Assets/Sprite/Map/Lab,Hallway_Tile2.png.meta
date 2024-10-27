@@ -1,0 +1,661 @@
+fileFormatVersion: 2
+guid: 095720a8326851e49ad7ccbb486dc3ac
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lab,Hallway_Tile2_8
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1680
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a86c33aed5df74991136e4969bd38a
+      internalID: -945788917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lab,Hallway_Tile2_17
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1440
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6455fe25fcee6ce448f82239a5c83883
+      internalID: 1220475247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lab,Hallway_Tile2_26
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1200
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52396e3ceec63cd49b2e4ca8b4f7e8d6
+      internalID: -1730096263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lab,Hallway_Tile2_33
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 960
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96424ce013fac0e41b8606d5000f3fca
+      internalID: -1337286815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lab,Hallway_Tile2_34
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 960
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e89da2f6c19ac448743a6822eeb00b
+      internalID: 1860965032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lab,Hallway_Tile2_35
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 960
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f58e8a651600f458831ab667f09f1c
+      internalID: 267601318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lab,Hallway_Tile2_38
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 720
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25fd970c45cee0243bd990c55424722c
+      internalID: -215749612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lab,Hallway_Tile2_42
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 720
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57c9f7ccc6a2094d9768e7a8461a352
+      internalID: 2037927914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lab,Hallway_Tile2_43
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 720
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f239141eb976c4395c9ad8bbb47a64
+      internalID: 846053153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lab,Hallway_Tile2_44
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 720
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07397e72b8fb80e4487550034ca6c3d3
+      internalID: -620305157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lab,Hallway_Tile2_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54da38c6a60b46f42aa4f32176f24f7e
+      internalID: 1890468110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lab,Hallway_Tile2_46
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 480
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067c3f6f64b6f494594529a43f856d4f
+      internalID: 1699605196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lab,Hallway_Tile2_47
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4cbf810fde04f4c8968cb38d55f05e
+      internalID: 1257933754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lab,Hallway_Tile2_51
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 480
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81653e3753518c44e801eb3cb76c7b11
+      internalID: -389940608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lab,Hallway_Tile2_52
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 480
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b481b1114d9504099db686f92cce93
+      internalID: 1036706244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lab,Hallway_Tile2_53
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 480
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea1422b36be61f40ad41a2d2770cb11
+      internalID: -1602669442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lab,Hallway_Tile2_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bcaa49c061e59468bb296f8fde98e1
+      internalID: 1075950835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lab,Hallway_Tile2_55
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1faeae576292f439afe850eaee49e9
+      internalID: -1684520400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lab,Hallway_Tile2_56
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 240
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a528dd44652ac5c4c95804ba02fdb543
+      internalID: -580699288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lab,Hallway_Tile2_58
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 160
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b7001a0a63343409be6364194f9523
+      internalID: 1598578478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lab,Hallway_Tile2_59
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 160
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacdac5fdad49cf44a4512d28fa115b1
+      internalID: -109265625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lab,Hallway_Tile2_60
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 160
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0008c4a4018c41e498fe5d6d94cabb37
+      internalID: 1138409804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Lab,Hallway_Tile2_0: -2048924202
+      Lab,Hallway_Tile2_1: -916741340
+      Lab,Hallway_Tile2_10: -1803415887
+      Lab,Hallway_Tile2_11: 2035422169
+      Lab,Hallway_Tile2_12: -1720713878
+      Lab,Hallway_Tile2_13: 1377477424
+      Lab,Hallway_Tile2_14: 530880504
+      Lab,Hallway_Tile2_15: -1123686875
+      Lab,Hallway_Tile2_16: -431740366
+      Lab,Hallway_Tile2_17: 1220475247
+      Lab,Hallway_Tile2_18: -1629741634
+      Lab,Hallway_Tile2_19: 1126582202
+      Lab,Hallway_Tile2_2: -1085774861
+      Lab,Hallway_Tile2_20: 1049253398
+      Lab,Hallway_Tile2_21: 48113181
+      Lab,Hallway_Tile2_22: 322409268
+      Lab,Hallway_Tile2_23: 428192254
+      Lab,Hallway_Tile2_24: -720370921
+      Lab,Hallway_Tile2_25: -1463220929
+      Lab,Hallway_Tile2_26: -1730096263
+      Lab,Hallway_Tile2_27: 1168945606
+      Lab,Hallway_Tile2_28: 162295214
+      Lab,Hallway_Tile2_29: -694319596
+      Lab,Hallway_Tile2_3: 1696587904
+      Lab,Hallway_Tile2_30: -1976458567
+      Lab,Hallway_Tile2_31: 634033845
+      Lab,Hallway_Tile2_32: -382443924
+      Lab,Hallway_Tile2_33: -1337286815
+      Lab,Hallway_Tile2_34: 1860965032
+      Lab,Hallway_Tile2_35: 267601318
+      Lab,Hallway_Tile2_36: 1476182360
+      Lab,Hallway_Tile2_37: -826955320
+      Lab,Hallway_Tile2_38: -215749612
+      Lab,Hallway_Tile2_39: 2083064291
+      Lab,Hallway_Tile2_4: -1132007641
+      Lab,Hallway_Tile2_40: 151616629
+      Lab,Hallway_Tile2_41: -1337569734
+      Lab,Hallway_Tile2_42: 2037927914
+      Lab,Hallway_Tile2_43: 846053153
+      Lab,Hallway_Tile2_44: -620305157
+      Lab,Hallway_Tile2_45: 1890468110
+      Lab,Hallway_Tile2_46: 1699605196
+      Lab,Hallway_Tile2_47: 1257933754
+      Lab,Hallway_Tile2_48: 286757406
+      Lab,Hallway_Tile2_49: -1016487658
+      Lab,Hallway_Tile2_5: 256372723
+      Lab,Hallway_Tile2_50: 1018172296
+      Lab,Hallway_Tile2_51: -389940608
+      Lab,Hallway_Tile2_52: 1036706244
+      Lab,Hallway_Tile2_53: -1602669442
+      Lab,Hallway_Tile2_54: 1075950835
+      Lab,Hallway_Tile2_55: -1684520400
+      Lab,Hallway_Tile2_56: -580699288
+      Lab,Hallway_Tile2_57: -972718448
+      Lab,Hallway_Tile2_58: 1598578478
+      Lab,Hallway_Tile2_59: -109265625
+      Lab,Hallway_Tile2_6: -130461695
+      Lab,Hallway_Tile2_60: 1138409804
+      Lab,Hallway_Tile2_61: -1207602522
+      Lab,Hallway_Tile2_62: 1865467012
+      Lab,Hallway_Tile2_63: -298088967
+      Lab,Hallway_Tile2_64: -1061275530
+      Lab,Hallway_Tile2_65: 836912398
+      Lab,Hallway_Tile2_66: -95219176
+      Lab,Hallway_Tile2_67: -653518759
+      Lab,Hallway_Tile2_68: 838457567
+      Lab,Hallway_Tile2_69: -266883155
+      Lab,Hallway_Tile2_7: 1609664250
+      Lab,Hallway_Tile2_70: -1494153826
+      Lab,Hallway_Tile2_71: -1374431443
+      Lab,Hallway_Tile2_8: -945788917
+      Lab,Hallway_Tile2_9: -764842855
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
